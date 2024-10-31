@@ -1,0 +1,1363 @@
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Project-Id-Version: ReDi Restaurant Reservation\n"
+"Language: de\n"
+"POT-Creation-Date: 2022-01-26 21:22+0000\n"
+"PO-Revision-Date: 2022-01-26 21:31+0000\n"
+"Last-Translator: Bistro Lisboa\n"
+"Language-Team: German\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.5.5; wp-5.8.3"
+
+#: templates/admin.php:544 templates/admin.php:546 templates/admin.php:548 
+#: templates/admin.php:550 templates/admin.php:552 templates/admin.php:554
+msgid "%d min"
+msgstr "%d min"
+
+#: templates/admin_ajaxed.php:267
+msgid "Address"
+msgstr "Adresse"
+
+#: templates/admin_ajaxed.php:275
+msgid "Address of the restaurant is to be written here."
+msgstr "Trage die Adresse des Restaurants hier ein."
+
+#: templates/basicpackage.php:23
+msgid ""
+"After you install Loco Translate plugin click this link to navigate to page "
+"with translations <a href=\"admin.php?name=redi-restaurant-"
+"reservation%2Fredi-restaurant-reservation."
+"php&type=plugin&poedit=plugins%2Fredi-restaurant-reservation%2Flang%2Fredi-"
+"restaurant-reservation-ru.po&page=loco-translate\" target=\"blank\">Redi "
+"translation</a>"
+msgstr ""
+"Nach der Installation des Plugins klicke bitte auf den nachfolgenden Link um "
+"mit der Übersetzung zu beginnen <a href=\"admin.php?name=redi-restaurant-"
+"reservation%2Fredi-restaurant-reservation."
+"php&type=plugin&poedit=plugins%2Fredi-restaurant-reservation%2Flang%2Fredi-"
+"restaurant-reservation-ru.po&page=loco-translate\" target=\"blank\">Redi "
+"Übersetzungen</a>"
+
+#: templates/admin_ajaxed.php:171
+msgid "Allow SMS"
+msgstr "Erlaube SMS"
+
+#: templates/admin.php:64
+msgid "Allow to receive SMS"
+msgstr "SMS-Nachrichten erlauben"
+
+#: templates/admin.php:538
+msgid "Alternative time step"
+msgstr "Alternative Zeitauswahl"
+
+#: templates/admin.php:254
+msgid "Always show"
+msgstr "Immer anzeigen"
+
+#: templates/basicpackage.php:4
+msgid "ApiKey"
+msgstr "API-Schlüssel"
+
+#: templates/admin.php:138
+msgid "Authors"
+msgstr "Autoren"
+
+#: templates/cancel.php:3 templates/modify.php:3 templates/modify.php:24
+msgid "Back to reservation page"
+msgstr "Zurück zur Reservierungsseite"
+
+#: templates/basicpackage.php:29
+msgid "Basic package functionality (paid version)"
+msgstr "Basic-Paket Funktionen (kostenpflichtig)"
+
+#: templates/admin_ajaxed.php:175 templates/admin.php:61
+msgid "Birthday"
+msgstr "Geburtstag"
+
+#: templates/admin.php:66
+msgid "Birthday (dd/mm)"
+msgstr "Geburtstag (tt/mm)"
+
+#: templates/basicpackage.php:41
+msgid ""
+"Blocked Time. Define time range when online reservation should not be "
+"accepted. Specify a reason why reservations are not accepted at this time to "
+"keep your clients happy."
+msgstr ""
+"Geblockte Zeiten. Definiere Zeiträume an denen keine Online-Reservierungen "
+"akzeptiert werden sollen. Du kannst auch einen Grund angeben, der deinen "
+"Gästen angezeigt wird."
+
+#: templates/admin.php:367
+msgid "By shifts"
+msgstr "Nach Schichten"
+
+#: templates/admin.php:232
+msgid "Calendar type"
+msgstr "Kalendertyp"
+
+#: templates/cancel.php:3 templates/cancel.php:19 templates/admin.php:112 
+#: templates/admin.php:732 templates/admin.php:746 templates/frontend.php:10
+msgid "Cancel reservation"
+msgstr "Reservierung stornieren"
+
+#: templates/admin.php:657
+msgid "Captcha"
+msgstr "Captcha"
+
+#: templates/admin.php:673
+msgid "Captcha key"
+msgstr "Captcha Schlüssel"
+
+#: templates/basicpackage.php:12
+msgid "Change"
+msgstr "Ändern"
+
+#: templates/basicpackage.php:7
+msgid "Change API key"
+msgstr "Ändere API Schlüssel"
+
+#: templates/frontend.php:224
+msgid "Change details"
+msgstr "Details ändern"
+
+#: templates/frontend.php:158
+msgid "Check available time"
+msgstr "Verfügbare Zeit prüfen"
+
+#: templates/admin_ajaxed.php:165
+msgid "Check box"
+msgstr "Kontrollkästchen"
+
+#: templates/frontend.php:137
+msgid "Children"
+msgstr "Kinder"
+
+#: templates/admin_ajaxed.php:252
+msgid "City"
+msgstr "Stadt"
+
+#: templates/admin_welcome_no_key.php:48 templates/admin_welcome.php:11
+msgid "Cleck here for more videos about plugin"
+msgstr "Klicke hier für mehr Videos über das Plugin"
+
+#: templates/admin_ajaxed.php:389
+msgid "Close"
+msgstr "Geschlossen"
+
+#: templates/admin.php:376
+msgid "Collect First and Last name"
+msgstr "Unterscheide zwischen Vor- und Nachname"
+
+#: templates/admin.php:416
+msgid "Collect phone number with country code"
+msgstr "Telefonnummer mit Ländercode verlangen"
+
+#: templates/basicpackage.php:65
+msgid "Collect pre-payment for reservations."
+msgstr "Verlange Vorauszahlungen für Reservierungen"
+
+#: templates/modify.php:58 templates/frontend.php:274
+msgid "Comment"
+msgstr "Kommentar"
+
+#: templates/admin.php:597
+msgid "Confirmation page"
+msgstr "Bestätigungsseite"
+
+#: redi.php:287
+msgid "contact us directly"
+msgstr "Kontaktieren Sie uns direkt."
+
+#: templates/admin_ajaxed.php:232
+msgid "Country"
+msgstr "Land"
+
+#: templates/admin_ajaxed.php:57
+msgid "Current Place ID"
+msgstr "Derzeitige Platz ID"
+
+#: templates/frontend.php:388
+msgid "Custom field is required"
+msgstr "\"Benutzerdefiniertes Feld\" ist erforderlich"
+
+#: templates/admin_ajaxed.php:71
+msgid "Custom fields"
+msgstr "Benutzerdefinierte Felder"
+
+#: templates/admin_ajaxed.php:73
+msgid ""
+"Custom fields are meant to allow users define additional fields for "
+"collecting more information from customers. You can choose the name of the "
+"field, type of field, the constraint whether it is a required field or not "
+"and the error message for the required field."
+msgstr ""
+"Benutzerdefinierte Felder erlauben es dir, von deinen Gästen zusätzliche "
+"Informationen abzufragen. Du kann den Feld-Namen und den Feld-Typ auswählen "
+"und einstellen, ob das Feld ausgefüllt werden muss."
+
+#: templates/admin.php:174
+msgid "Data Input Appearance"
+msgstr "Aussehen der Dateneingabe"
+
+#: templates/modify.php:28 templates/frontend.php:68 templates/frontend.php:344
+msgid "Date"
+msgstr "Datum"
+
+#: templates/admin_ajaxed.php:467
+msgid "Date format"
+msgstr "Datumsformat"
+
+#: templates/admin.php:623
+msgid "Days"
+msgstr "Tage"
+
+#: templates/admin.php:337
+msgid "Description for children dropdown"
+msgstr "Beschreibung für Kinderbezogene Drop-down-Liste"
+
+#: templates/admin.php:576 templates/admin.php:589
+msgid "Disable confirmation email"
+msgstr "Deaktiviere Bestätigungs-E-Mail"
+
+#: templates/admin.php:490
+msgid "Display left seats"
+msgstr "Freie Plätze anzeigen"
+
+#: templates/admin.php:559
+msgid ""
+"Displays the available time with time step to the clients. For instance, if "
+"one selects 15 min time step, then alternative time will be 10:00, 10:15, 10:"
+"30, etc."
+msgstr ""
+"Zeige deinen Gästen die verfügbaren Zeiten mit frei definierbaren "
+"Zeitschritten an. Wenn du z.B. Zeitschritte von 15 Minuten einstellst, "
+"werden die verfügbaren Zeiten wie folgt dargestellt: 10:00, 10:15, 10:30, "
+"etc."
+
+#: templates/basicpackage.php:61
+msgid ""
+"Do you want to know what your client thinks about his last visit? We will "
+"collect it for you."
+msgstr ""
+"Möchtest du wissen, was deine Gäste über ihren letzten Besuch in deinem "
+"Restaurant denken? Wir fragen deine Gäste für dich."
+
+#: templates/basicpackage.php:68
+msgid ""
+"Do you want to write your own module? We have an API. Contact us to get more "
+"information."
+msgstr ""
+"Möchtest du dein eigenes Modul einbinden? Wir haben eine API-Schnittstelle. "
+"Kontaktiere uns gerne für weitere Informationen."
+
+#: templates/admin_ajaxed.php:477
+msgid "Dot"
+msgstr "Punkt"
+
+#: templates/admin_ajaxed.php:179
+msgid "DropDown"
+msgstr "Drop-down-Liste"
+
+#: templates/frontend.php:104
+msgid "Duration"
+msgstr "Zeitdauer"
+
+#: templates/admin.php:515
+msgid ""
+"Duration of reservation in minutes. This is the time allocated for each "
+"reservation."
+msgstr ""
+"Reservierungszeitraum in Minuten. Diese Zeit wird standardmäßig für jede "
+"Reservierung hinterlegt."
+
+#: templates/admin.php:616
+msgid "Early Bookings"
+msgstr "Frühe Buchungen"
+
+#: templates/admin_ajaxed.php:297 templates/cancel.php:14 
+#: templates/modify.php:13 templates/modify.php:54 templates/admin.php:132 
+#: templates/frontend.php:233 templates/frontend.php:262 
+#: templates/frontend.php:366
+msgid "Email"
+msgstr "Email"
+
+#: templates/admin_ajaxed.php:305
+msgid "Email address for contacting the restaurant."
+msgstr "Kontakt E-Mail-Adresse des Restaurants."
+
+#: templates/admin_ajaxed.php:312
+msgid "Email CC"
+msgstr "E-Mail CC"
+
+#: templates/admin_ajaxed.php:430
+msgid "Email Configuration"
+msgstr "E-Mail Konfiguration"
+
+#: templates/basicpackage.php:45
+msgid "Email template customization for all supported languages."
+msgstr "E-Mail Vorlage für alle unterstützten Sprachen anpassen."
+
+#: templates/admin.php:181
+msgid "Enable cancel form"
+msgstr "Stornierungsform aktivieren"
+
+#: templates/admin.php:197
+msgid "Enable modify reservations"
+msgstr "Reservierungsänderungen akrivieren"
+
+#: templates/admin.php:206
+msgid "Enable or Disable modify reservation."
+msgstr "Reservierungsänderungen akrivieren/deaktivieren."
+
+#: templates/admin.php:190
+msgid "Enable or Disable reservation cancel form."
+msgstr "Stornierungsform für Reservierungen aktivieren/deaktivieren"
+
+#: templates/admin.php:222
+msgid ""
+"Enable or Disable social network account login. When enabled clients can "
+"login with any social network accounts like Facebook and then reservation "
+"form will be pre-filled with personal information. Also if user logins with "
+"social network but does not complete the reservation, he will receive a "
+"reminder to finalize it. You need to install and setup plugin with name "
+"'Super Socializer' from WordPress directory."
+msgstr ""
+"Aktiviere oder deaktiviere die Login-Möglichkeit mit sozialen Netzwerken. "
+"Wenn aktiviert, können sich Gäste mit ihren Social-Media Accounts wie "
+"Facebook anmelden und das Reservierungsformular wird mit den persönlichen "
+"Informationen aus diesem Account vorausgefüllt. Zudem erhalten Gäste bei "
+"nicht vollständigem Absenden des Reservierungsformulars eine Erinnerung über "
+"ihren Social-Media Account. Für diese Option wird das Plugin 'Super "
+"Socializier' aus der Wordpress Plugin-Datenbank benötigt."
+
+#: templates/admin.php:213
+msgid "Enable social network login"
+msgstr "Anmeldung über soziale Netzwerke aktivieren"
+
+#: templates/admin.php:666
+msgid "Enable/Disable captcha on reservation form."
+msgstr "Captcha für Reservierungsform aktivieren/deaktivieren"
+
+#: templates/admin.php:326
+msgid "Enable/Disable children dropdown"
+msgstr "Kinderbezogene Drop-down-Liste aktivieren/deaktivieren"
+
+#: templates/basicpackage.php:59
+msgid ""
+"Enhance your business experience by using our Facebook integration service "
+"where we try to provide you with profile pictures of your customers if found."
+" You can amaze your customer by knowing him by face when he visits you, "
+"especially at the time of first visit."
+msgstr ""
+"Erweitere dein Geschäftsfeld und nutze unsere Facebook Integration. Wir "
+"zeigen dir die Profilbilder deiner Gäste anhand der hinterlegten E-Mail-"
+"Adresse an (sofern sie gefunden werden können). So erkennst du deine Gäste "
+"schon beim Betreten deines Restaurants - schon beim ersten Besuch!"
+
+#: templates/admin_ajaxed.php:85
+msgid "Field name"
+msgstr "Feld-Name"
+
+#: templates/admin_ajaxed.php:95
+msgid "Field type"
+msgstr "Feld-Typ"
+
+#: templates/modify.php:15
+msgid "Find reservation"
+msgstr "Reservierung suchen"
+
+#: templates/basicpackage.php:25
+msgid "Find text you want to change, change it and press save"
+msgstr ""
+"Finde den Text den du ändern möchtest, editiere ihn und klicke auf speichern"
+
+#: templates/frontend.php:239
+msgid "First Name"
+msgstr "Vorname"
+
+#: templates/admin.php:110
+msgid "Free package settings"
+msgstr "Einstellungen des kostenlosen Pakets"
+
+#: templates/admin.php:572 templates/admin.php:586
+msgid "From ReservationDiary.eu"
+msgstr "Von ReservationDiary.eu"
+
+#: templates/admin.php:574 templates/admin.php:583
+msgid "From WordPress email account"
+msgstr "Vom WordPress E-Mail-Account"
+
+#: templates/admin.php:636
+msgid "Frontend settings"
+msgstr "Frontend Einstellungen"
+
+#: templates/admin_ajaxed.php:173
+msgid "GDPR"
+msgstr "GDPR"
+
+#: templates/frontend.php:119
+msgid "Guests"
+msgstr "Gäste"
+
+#: templates/admin.php:450
+msgid "Hide previous steps (only for timeshiftmode byshifts)"
+msgstr "Verstecke vorherige Schritte (nur für den Anzeigemodus \"byshifts\")"
+
+#: templates/admin.php:435
+msgid "Hide steps"
+msgstr "Schritte verstecken"
+
+#: templates/admin.php:622
+msgid "Hours"
+msgstr "Stunden"
+
+#: templates/admin.php:479
+msgid "HTML dropdown"
+msgstr "HTML Kontextmenü"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://reservationdiary.eu"
+msgstr "http://reservationdiary.eu"
+
+#: templates/admin_ajaxed.php:472
+msgid "Hyphen"
+msgstr "Bindestrich"
+
+#: templates/admin.php:65
+msgid "I agree to the privacy policy"
+msgstr "Ich stimme den Datenschutzbestimmungen zu"
+
+#: templates/admin.php:531
+msgid ""
+"If checkbox is checked then reservations will not be automatically confirmed."
+" You will receive email with reservation request and each reservation needs "
+"to be confirmed or rejected manually."
+msgstr ""
+"Wenn das Kontrollkästchen aktiviert ist, werden Reservierungen nicht "
+"automatisch bestätigt. Sie erhalten eine E-Mail mit einer "
+"Reservierungsanfrage welche sie jeweils manuell bestätigen oder ablehnen "
+"müssen."
+
+#: templates/admin.php:498
+msgid ""
+"If checkbox is checked then seats left will be shown under selected time."
+msgstr ""
+"Wenn Kontrollkästchen angekreuzt ist, werden die freie Plätze unter "
+"ausgewählter Zeit angezeigt."
+
+#: templates/admin.php:714
+#, fuzzy
+#| msgid ""
+#| "If checkbox is checked, a logo of <b>\"Powered by ReDi\"</b> is displayed. "
+#| "Thank you for supporting us."
+msgid ""
+"If checkbox is checked, a logo of <b>\"Powered by ReservationDiary.eu\"</b> "
+"is displayed. Thank you for supporting us."
+msgstr ""
+"Wenn aktiviert, wird ein Logo mit <b>\"Powered by ReDi\"</b> eingeblendet. "
+"Danke für deinen Support!"
+
+#: templates/admin.php:312
+msgid ""
+"If this field is filled, the drop down menu of persons would show \"Large "
+"Groups\" and upon selection, the specified message would appear."
+msgstr ""
+"Wenn dieses Feld ausgefüllt wird, wird im Kontextmenü für die Gruppengröße "
+"eine Option \"große Gruppen\" und bei Auswahl dieses Punktes die "
+"eingestellte Nachricht angezeigt."
+
+#: templates/basicpackage.php:66
+msgid ""
+"If you are building a catalogue of restaurants and looking for the perfect "
+"reservation plugin for it, we can provide it to you."
+msgstr ""
+"Wenn du mehrere Restaurants besitzt und nach einer perfekten Lösung für eine "
+"Reservierungsseite suchst, haben wir was für dich."
+
+#: templates/admin_ajaxed.php:422
+msgid ""
+"If you close next day at night then set closing time on a same day. For "
+"example 18:00 - 3:00"
+msgstr ""
+"Wenn du am nächsten Tag zur Nachtzeit schließt, dann wähle die Nachtzeit, "
+"als wäre sie am gleichen Tag (z.B. 18:00 - 3:00 Uhr)"
+
+#: templates/admin.php:609
+msgid ""
+"If you want to customize confirmation page or have a separated page for "
+"marketing purposes, then select custom reservation confirmation page. If not "
+"specified, then built in confirmation page will be used."
+msgstr ""
+"Wenn Sie die Bestätigungsseite individuell einrichten möchten oder eine "
+"getrennte Seite für Marketingzwecke haben möchten, wählen Sie "
+"\"benutzerdefinierte Bestätigungsseite\". Wenn nicht ausgewählt, wird die "
+"integrierte (automatische) Bestätigungsseite benutzt."
+
+#: templates/basicpackage.php:71
+msgid ""
+"If you would like to add some new functionality or have any other queries, "
+"please contact us by email: "
+msgstr ""
+"Wenn du weitere Funktionen benötigst oder Verbesserungsvorschläge hast, "
+"hören wir gerne von dir. Schick uns einfach eine E-Mail:"
+
+#: templates/basicpackage.php:76
+msgid ""
+"Improve your restaurant’s turnaround time by allowing the clients to call a "
+"waiter using their smart phones. Create a mobile web page with our QR Code "
+"Waiter Calling System plugin."
+msgstr ""
+"Verbessere die Wartezeit in deinem Restaurant und erlaube den Kunden den "
+"Kellner über ihr Mobiltelefon zu rufen. Richte einfach eine Mobile-Webpage "
+"mit unserem QR-Code Kellnerruf Plugin ein."
+
+#: templates/frontend.php:178 templates/frontend.php:327
+msgid ""
+"In case you would like to be notified when someone cancels reservation for "
+"this day, please fill <a class=\"link-waitlist-form\">this form</a>."
+msgstr ""
+"Möchtest du informiert werden, wenn eine bestehende Reservierung storniert "
+"wird, trage dich bitte in die <a class=\"link-waitlist-form\">Warteliste</a> "
+"ein."
+
+#: templates/basicpackage.php:19
+msgid "In order to change text or translation"
+msgstr "um Texte oder Übersetzungen zu ändern"
+
+#: templates/admin.php:610
+msgid ""
+"In order to display reservation id on that page, install plugin GET Params "
+"and add following short code: [display-get-param name=\"reservation_id\"]"
+msgstr ""
+"Wenn Sie an dieser Seite Reservierung-ID angezeigt haben möchten, "
+"installieren Sie den GET Params Plugin und geben die Short-Kode:  [display-"
+"get-param name=\"reservation_id\"] ein."
+
+#: templates/admin.php:368
+msgid ""
+"In this mode, the system automatically displays all the available times for "
+"the date selected without any manual time input."
+msgstr ""
+"In diesem Modus zeigt das System automatisch alle verfügbaren Zeiten für den "
+"gewählten Tag an, ohne das eine Uhrzeit manuell eingegeben werden muss."
+
+#: templates/admin.php:365
+msgid ""
+"In this mode, the user selects the desired time and the system verifies its "
+"availability to present five different alternative times to the customer."
+msgstr ""
+"In diesem Modus wählt der Gast die gewünschte Zeit, das System überprüft die "
+"Verfügbarkeit und zeigt fünf alternative Uhrzeiten an."
+
+#: templates/admin_ajaxed.php:105
+msgid "Is printed?"
+msgstr "Wurde gedruckt?"
+
+#: templates/admin_ajaxed.php:100
+msgid "Is required?"
+msgstr "Ist erforderlich?"
+
+#: templates/admin.php:476
+msgid "jQuery plugin"
+msgstr "jQuery Plugin"
+
+#: templates/admin_ajaxed.php:436
+msgid "Language"
+msgstr "Sprache"
+
+#: templates/admin_ajaxed.php:459
+msgid ""
+"Language for emails of clients depend on the user interface language "
+"selected."
+msgstr ""
+"Die E-Mail-Sprache ist abhängig von der eingestellten Sprache im "
+"Benutzeraccount."
+
+#: templates/admin_ajaxed.php:458
+msgid ""
+"Language for internal emails communication. It is specially used for admin "
+"emails. "
+msgstr ""
+"Sprache für interne E-Mail-Kommunikation. Diese wird hauptsächlich für die "
+"Admininistrator-E-Mails verwendet."
+
+#: templates/frontend.php:249
+msgid "Last Name"
+msgstr "Nachname"
+
+#: templates/admin_ajaxed.php:343
+msgid "Late Bookings"
+msgstr "Späte Buchungen"
+
+#: templates/frontend.php:29
+msgid "Login with your social media account"
+msgstr "Über soziale Netzwerke anmelden"
+
+#: templates/frontend.php:288
+msgid "Make a reservation"
+msgstr "Jetzt reservieren"
+
+#: templates/admin.php:522
+msgid "Manual reservation"
+msgstr "Manuelle Reservierung"
+
+#: templates/admin.php:281
+msgid "Max persons per reservation"
+msgstr "Max. Personenanzahl pro Reservierung"
+
+#: templates/admin_ajaxed.php:360
+msgid "Maximum number of guests"
+msgstr "Maximale Gästeanzahl"
+
+#: templates/admin.php:295
+msgid ""
+"Maximum number of persons allowed for each reservation. Drop down list of "
+"persons ends with this number."
+msgstr ""
+"Maximale Personenanzahl pro Reservierung. Die Drop-Down-Liste endet mit der "
+"eingestellten Personenanzahl."
+
+#: templates/admin.php:629
+msgid "Maximum time before the reservation can be accepted."
+msgstr "Maximales Zeitraum bis die Reservierung angenommen werden kann."
+
+#: templates/admin.php:303
+msgid "Message for large groups"
+msgstr "Nachricht für große Gruppen"
+
+#: templates/admin.php:261
+msgid "Min persons per reservation"
+msgstr "Minimale Gästeanzahl pro Reservierung"
+
+#: templates/admin.php:275
+msgid ""
+"Minimum number of persons allowed for each reservation. Drop down list of "
+"persons starts from this number."
+msgstr ""
+"Minimale Personenanzahl pro Reservierung. Die Drop-Down-Liste startet mit "
+"der eingestellten Personenanzahl."
+
+#: templates/admin.php:362
+msgid ""
+"Mode how available working hours presented to user so that they can choose "
+"time slots most convenient to them."
+msgstr ""
+"Modus in welchem dem Benutzer die Arbeitsstunden angezeigt werden, so dass "
+"er diese nach seinen Wünschen auswählen kann."
+
+#: templates/modify.php:2 templates/frontend.php:14
+msgid "Modify reservation"
+msgstr "Reservierung ändern"
+
+#: templates/admin.php:624
+msgid "Months"
+msgstr "Monate"
+
+#: templates/frontend.php:131
+#, php-format
+msgid "More than %s Guests"
+msgstr "Mehr als %s Gäste"
+
+#: templates/frontend.php:6
+msgid "More than [max] people"
+msgstr "Mehr als [max] Personen"
+
+#: templates/admin_ajaxed.php:426
+msgid ""
+"Multiple open and close times are available in Basic package. If times are "
+"configured in Basic package, then this table is ignored."
+msgstr ""
+"Mehrfache Öffnungszeiten an einem Tag sind im Basic-Paket verfügbar. Wenn "
+"Öffnungszeiten im Basic-Paket konfiguriert sind, ist diese Tabelle ignoriert."
+
+#: templates/cancel.php:12 templates/modify.php:11 templates/modify.php:43 
+#: templates/admin.php:119 templates/frontend.php:227 
+#: templates/frontend.php:241 templates/frontend.php:361
+msgid "Name"
+msgstr "Name"
+
+#: templates/admin.php:121
+msgid "News"
+msgstr "Nachrichten"
+
+#: templates/admin_ajaxed.php:169 templates/admin.php:58
+msgid "Newsletter"
+msgstr "Newsletter"
+
+#: templates/frontend.php:122
+msgid "No. of Guests"
+msgstr "Gästeanzahl"
+
+#: templates/admin.php:364
+msgid "Normal"
+msgstr "Normal"
+
+#: templates/admin_ajaxed.php:77
+msgid ""
+"NOTE: Complex custom fields like Options and Dropdown can be configured in "
+"Basic package settings."
+msgstr ""
+"Achtung: komplexe Einstellungsbereiche wie Onpionen und Drop-down-Listen "
+"können im Basic-Paket konfiguriert werden."
+
+#: templates/admin_ajaxed.php:353
+msgid ""
+"NOTE: If you define Open Time in basic package, then this setting will be "
+"ignored. Use open times settings to define Late Bookings."
+msgstr ""
+"ACHTUNG: Wenn du die Öffnungszeiten in den Basic-Paket-Einstellungen "
+"definierst, werden die Einstellungen an dieser Stelle ignoriert. Benutze die "
+"Öffnungszeiten-Einstellungen um späte Buchungen zu definieren."
+
+#: templates/admin_ajaxed.php:75
+msgid ""
+"NOTE: Name, Email, Phone and Comments are required fields of reservation "
+"form and do not need to be defined here as custom fields."
+msgstr ""
+"ACHTUNG: Name, E-Mail, Telefon und Kommentar sind obligatorische Felder des "
+"Reservierungsformulars und müssen nicht zusätzlich als benutzerdefinierte "
+"Felder angelegt werden."
+
+#: templates/admin_ajaxed.php:209
+msgid ""
+"Note: SMS messages and Reminders requires an extra addons to be purchased."
+msgstr ""
+"ACHTUNG: SMS Nachrichten und Erinnerungsfunktion benötigen ein "
+"kostenplfichtiges Zusatzmodul."
+
+#: templates/admin.php:682
+msgid "Obtain your captcha key from Google."
+msgstr "Erhalten Sie Ihren Captcha-Schlüssel von Google."
+
+#: redi.php:288
+#, fuzzy
+#| msgid ""
+#| "Online reservation service is not available at this time. Try again later or"
+msgid ""
+"Online reservation service is not available at this time. Try again later or "
+"%s"
+msgstr ""
+"Online-Reservierungen sind zurzeit nicht verfügbar. Probieren Sie später."
+
+#: templates/admin_ajaxed.php:386
+msgid "Open"
+msgstr "Offen"
+
+#: templates/basicpackage.php:37
+msgid ""
+"Open times. This option will enable you to choose between various working "
+"hours whichever is most convenient to you."
+msgstr ""
+"Öffnungszeiten. Diese Option ermöglicht es dir verschiedenste Öffnungszeiten "
+"ganz nach deinen Bedürfnissen einzustellen."
+
+#: templates/basicpackage.php:34
+msgid "Open upcoming reservations"
+msgstr "Öffne anstehende Reservierungen"
+
+#: templates/admin_ajaxed.php:177
+msgid "Option"
+msgstr "Option"
+
+#: templates/admin.php:641
+msgid "Override fully booked message text"
+msgstr "Text, der angezeigt wird, wenn Plätze ausgebucht sind."
+
+#: templates/modify.php:32 templates/frontend.php:352
+msgid "Persons"
+msgstr "Personen"
+
+#: templates/admin_ajaxed.php:327 templates/cancel.php:9 
+#: templates/modify.php:8 templates/modify.php:47 templates/admin.php:136 
+#: templates/frontend.php:230 templates/frontend.php:255 
+#: templates/frontend.php:371
+msgid "Phone"
+msgstr "Mobilnummer"
+
+#: templates/admin_ajaxed.php:37 templates/frontend.php:51
+msgid "Place"
+msgstr "Platz"
+
+#: templates/basicpackage.php:50
+msgid ""
+"Please allow 1 business day for us to confirm your payment and upgrade your "
+"account."
+msgstr ""
+"Bitte gib uns einen Arbeitstag Zeit, um deine Zahlung zu verbuchen und "
+"deinen Account upzugraden."
+
+#: templates/basicpackage.php:21
+msgid ""
+"Please install plugin <a href=\"plugin-install.php?"
+"tab=search&type=term&s=loco+translate\" target=\"_blank\">loco-translate</a>"
+msgstr ""
+"Bitte installiere das Plugin <a href=\"plugin-install.php?"
+"tab=search&type=term&s=loco+translate\" target=\"_blank\">loco-translate</a>"
+
+#: templates/admin_welcome_no_key.php:44 templates/admin_welcome.php:6
+msgid "Please watch our videos that helps you to setup plugin"
+msgstr "Bitte schaue unsere Erklärvideos zur Einrichtung des Plugins"
+
+#: templates/admin.php:117
+msgid "Plugin Info"
+msgstr "Plugin Informationen"
+
+#: templates/frontend.php:418
+msgid "Powered by"
+msgstr "Bereitgestellt von"
+
+#: templates/frontend.php:357
+msgid "Preferred time"
+msgstr "Bevorzugte Uhrzeit"
+
+#: templates/frontend.php:213 templates/frontend.php:286
+msgid "Previous"
+msgstr "Zurück"
+
+#: templates/admin.php:60
+msgid "Privacy policy"
+msgstr "Datenschutzerklärung"
+
+#: templates/frontend.php:219
+msgid "Provide reservation details"
+msgstr "Deine Daten"
+
+#: templates/cancel.php:16 templates/admin.php:740
+msgid "Reason"
+msgstr "Grund"
+
+#. Description of the plugin
+msgid "ReDi Reservation plugin for Restaurants"
+msgstr "ReDi Reservation Plugin für Restaurants"
+
+#. Name of the plugin
+msgid "ReDi Restaurant Reservation"
+msgstr "ReDi Restaurant Reservation"
+
+#: templates/frontend.php:400
+msgid "Register to Wait List"
+msgstr "In die Warteliste eintragen"
+
+#: templates/basicpackage.php:63
+msgid "Remind your customer about upcoming reservation via Email or by SMS"
+msgstr ""
+"Erinnere deine Gäste über anstehende Reservierungen per E-Mail und / oder SMS"
+
+#: templates/admin_ajaxed.php:167 templates/admin.php:57
+msgid "Reminder"
+msgstr "Erinnerungsfunktion"
+
+#: templates/admin_ajaxed.php:110
+msgid "Required error message"
+msgstr "Erforderliche Fehlermeldung"
+
+#. Author of the plugin
+msgid "Reservation Diary"
+msgstr "Reservation Diary"
+
+#: redi.php:287
+msgid "Reservation form is not working"
+msgstr "Reservierungsform funktioniert nicht."
+
+#: templates/cancel.php:27
+msgid "Reservation has been successfully canceled."
+msgstr "Die Reservierung wurde erfolgreich storniert."
+
+#: templates/modify.php:72
+msgid "Reservation has been successfully updated."
+msgstr "Reservierung wurde erfolgreich aktualisiert."
+
+#: templates/frontend.php:173 templates/frontend.php:333
+msgid ""
+"Reservation is not available on selected day. Please select another day."
+msgstr ""
+"An diesem Tag kann keine Reservierung entgegengenommen werden. Bitte wähle "
+"einen anderen Tag aus."
+
+#: templates/cancel.php:7 templates/modify.php:6 templates/admin.php:736
+msgid "Reservation number"
+msgstr "Reservierungsnummer"
+
+#: templates/admin.php:505
+msgid "Reservation time"
+msgstr "Reservierungszeit"
+
+#: templates/admin_ajaxed.php:217
+msgid "Restaurant name"
+msgstr "Restaurantname"
+
+#: templates/admin_ajaxed.php:32
+msgid "Restaurant settings"
+msgstr "Restauranteinstellungen"
+
+#: templates/admin.php:726
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: templates/frontend.php:196
+msgid "Select available time"
+msgstr "Wähle eine freie Zeit"
+
+#: templates/admin_ajaxed.php:237
+msgid "Select Country"
+msgstr "Wähle Land"
+
+#: templates/frontend.php:62
+msgid "Select date and time"
+msgstr "Bitte wähle Datum und Uhrzeit"
+
+#: templates/frontend.php:48
+msgid "Select place, date and time"
+msgstr "Wähle Ort, Datum und Zeit"
+
+#: templates/admin.php:252
+msgid ""
+"Selecting this option, the calendar is set to popup when the user clicks the "
+"calendar control."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird der Kalender in einem Pop-Up-Fenster "
+"geöffnet."
+
+#: templates/basicpackage.php:43
+msgid "Send client reservation confirmation emails from WordPress account."
+msgstr ""
+"Sendet dem Gast die Reservierungsbestätigung über den E-Mail-Account der "
+"WordPress-Seite."
+
+#: templates/admin.php:566
+msgid "Send confirmation email to client"
+msgstr "Sende Reservierungsbestätigungs-E-Mail an den Gast"
+
+#: templates/admin.php:63
+msgid "Send me newsletter and promotions"
+msgstr "Sende mir Newsletter und Angebote zu"
+
+#: templates/admin.php:62
+msgid "Send me reservation reminder"
+msgstr "Sende mir eine Reservierungserinnerung"
+
+#: templates/admin_ajaxed.php:424
+msgid "Set Open and Close fields to blank if restaurant is closed."
+msgstr ""
+"Lösche \"Offen\"- und \"Geschlossen\"-Zeiten wenn das Restaurant geschlossen "
+"ist."
+
+#: templates/basicpackage.php:35
+msgid "Setup maximum available seats for online reservation by week day"
+msgstr ""
+"Stelle die maximale Sitzplatzanzahl für Online-Reservierungen pro Wochentag "
+"ein"
+
+#: templates/admin.php:396
+msgid "Show end reservation time"
+msgstr "Zeige End-Reservierungszeit"
+
+#: templates/admin.php:251
+msgid "Shown on click"
+msgstr "Beim Klicken anzeigen"
+
+#: templates/admin.php:135
+msgid "Skype"
+msgstr "Skype"
+
+#: templates/admin_ajaxed.php:482
+msgid "Slash"
+msgstr "Schrägstrich"
+
+#: templates/admin.php:59
+msgid "SMS"
+msgstr "SMS"
+
+#: templates/admin_ajaxed.php:351
+msgid ""
+"Specify how late customers can make their booking in hours. For example, the "
+"current time is 10:00 and this setting is set to 3 hours then the first time,"
+" when the reservation will be accepted is 13:00."
+msgstr ""
+"Stelle ein, wie spät Gäste online reservieren können (Beispiel: Bei einer "
+"Einstellung von 3 Stunden kann eine Reservierung für 13:00 Uhr spätestens um "
+"10:00 Uhr vorgenommen werden)."
+
+#: templates/admin_ajaxed.php:420
+msgid "Specify time in 24h format (00:00 - 23:59)."
+msgstr "Stelle die Zeit im 24-Stunden-Format ein (00:00 - 23:59)."
+
+#: templates/frontend.php:48 templates/frontend.php:62 
+#: templates/frontend.php:196 templates/frontend.php:219
+msgid "Step"
+msgstr "Schritt"
+
+#: templates/admin.php:129
+msgid "Support"
+msgstr "Support"
+
+#: templates/basicpackage.php:39
+msgid ""
+"Support for multiple places. Number of places depends on number of "
+"subscriptions."
+msgstr ""
+"Unterstützung für mehrere Plätze. Die Anzahl an Plätzen hängt von der Anzahl "
+"der gekauften Lizenzen ab."
+
+#: templates/admin.php:705
+msgid "Support us"
+msgstr "Unterstütze uns"
+
+#: templates/admin_ajaxed.php:163
+msgid "Text field"
+msgstr "Textfeld"
+
+#: templates/admin_ajaxed.php:90
+msgid "Text on form"
+msgstr "Feldname"
+
+#: templates/admin.php:650
+msgid ""
+"Text that will be displayed when there are no available time for selected "
+"day/time."
+msgstr ""
+"Text, der angezeigt wird, wenn es keine verfügbaren Zeiten für ausgewählten "
+"Tag gibt."
+
+#: templates/basicpackage.php:17
+msgid "Texts and Translations"
+msgstr "Texte und Übersetzungen"
+
+#: templates/frontend.php:295
+msgid "Thank you for your reservation."
+msgstr "Vielen Dank für deine Reservierung"
+
+#: templates/frontend.php:302
+msgid ""
+"A confirmation email has been sent to you, "
+"should you not receive it, please rest assured that your booking has been "
+"received and is confirmed. If you wish you may contact us by phone to "
+"confirm."
+msgstr ""
+"Vielen Dank für Deine Reservierung. Eine E-Mail-Bestätigung ist schon auf "
+"dem Weg zu Dir. Solltest Du sie nicht innerhalb der nächsten Minuten "
+"empfangen, prüfe bitte Deinen Spam-Ordner. Deine Reservierung ist aber auf "
+"jeden Fall bestätigt und in unserem System unter der Reservierungsnummer "
+"hinterlegt. Wir freuen uns auf Deinen Besuch!“"
+
+#: templates/frontend.php:300
+msgid ""
+"Thank you for your reservation. We have received your request and will "
+"process it shortly. Please note that your reservation is not confirmed until "
+"you receive written confirmation from us."
+msgstr ""
+"Vielen Dank für deine Reservierungsanfrage. Wir werden diese "
+"schnellstmöglich bearbeiten. Bitte beachte, dass die Reservierung erst "
+"bestätigt ist, wenn wir dich mit einer weiteren E-Mail hierüber informieren."
+
+#: templates/admin.php:587
+msgid ""
+"The confirmation email will be sent out from info@reservationdiary.eu. When "
+"the client replies to confirmation email, you will receive it."
+msgstr ""
+"Die Reservierungsbesätigungs E-Mail wird von info@reservationdiary.eu "
+"versendet. Wenn der Kunde hierauf antwortet, erhalten Sie die E-Mail."
+
+#: templates/admin.php:584
+msgid ""
+"The confirmation email will be sent out from your email set in WordPress."
+msgstr ""
+"Die Reservierungsbestätigung E-Mail wird auf Ihrem in WordPress hinterlegten "
+"E-Mail-Postfach versendet."
+
+#: templates/admin_ajaxed.php:335
+msgid ""
+"The contact number of restaurant. It could have the format [area code] "
+"[phone number]"
+msgstr "Kontaktrufnummer (Format [Ortsvorwahl] [Rufnummer])"
+
+#: templates/admin_ajaxed.php:245
+msgid "The country of restaurant can be mentioned here."
+msgstr "Land"
+
+#: templates/admin_ajaxed.php:320
+msgid ""
+"The email addresses of recipients who should be sent the copies of "
+"reservation emails. You can separate multiple recipients using commas."
+msgstr ""
+"Kopien der Reservierungsbestätigungs-E-Mails werden an dieser Adressen "
+"versendet (mehrere Adressen durch Kommata trennen)."
+
+#: templates/admin_ajaxed.php:225
+msgid "The name of the restaurant is to be specified here."
+msgstr "Die Name des Restaurants ist hier anzugeben."
+
+#: templates/admin_ajaxed.php:260
+msgid "The restaurant city is to be specified in this field."
+msgstr "Stadt"
+
+#: templates/admin_ajaxed.php:491
+msgid ""
+"The way date format is displayed on the date control. You can select from a "
+"drop down list of different date formats."
+msgstr ""
+"Datumseinstellung. Du kannst aus einer Drop-Down-Liste zwischen "
+"verschiedenen Anzeigemöglichkeiten auswählen."
+
+#: templates/admin.php:581
+msgid ""
+"The way you want confirmation email to be delivered to the client. It can be "
+"\"From WordPress email account\", \"From reservationdiary.eu\" or \"Disable "
+"confirmation email\"."
+msgstr ""
+"Wie sollen die Bestätigungs-E-Mail an die Gäste versandt werden? Du kannst "
+"sie über den in WordPress eingestellten E-Mail-Account oder über unseren "
+"Server (reservationdiary.eu) versenden lassen. Alternativ kannst du den "
+"Versand auch deaktiveren."
+
+#: templates/admin_ajaxed.php:290
+msgid "The website address of the restaurant."
+msgstr "Webadresse"
+
+#: templates/frontend.php:312 templates/frontend.php:321
+msgid "There are no more reservation can be made for this day."
+msgstr ""
+"An diesem Tag können online keine weiteren Reservierungen angenommen werden. "
+"Bitte rufe uns unter 02151/9421691 an und wir schauen gerne, ob wir noch "
+"einen Platz für dich und deine Begleitung finden können."
+
+#: templates/admin_ajaxed.php:61
+msgid ""
+"This <b>ID</b> associated with your place. The <b>ID</b> can be used as a "
+"short code for specifying the place of reservation in case of multiple "
+"restaurants. <br/>Example of shortcode:"
+msgstr ""
+"Diese <b>ID</b> ist mit deinem Platz verknüpft. Die <b>ID</b> kann innerhalb "
+"eines Shortcodes zum spezifizieren des Platzes genutzt werden. <br/>"
+"Beispiels Shortcode:"
+
+#: templates/admin_ajaxed.php:51
+msgid ""
+"This field lets you edit settings for multiple places. Multiple places are "
+"available for Basic package users only."
+msgstr ""
+"Über dieses Menü kannst du die Einstellungen für mehrere Standorte verändern."
+" Dies ist nur im Basic-Paket möglich."
+
+#: templates/admin.php:249
+msgid ""
+"This field lets you select the style in which the calendar control is "
+"displayed. It can be either \"Show on click\" or \"Always show”."
+msgstr "Mit dieser Einstellung kannst du das Aussehen des Kalenders ändern."
+
+#: templates/admin.php:474
+msgid ""
+"This field lets you select the way time picker is displayed. You can choose "
+"from \"jQuery plugin\" and \"HTML dropdown\"."
+msgstr "Mit dieser Einstellung kannst du die Art der Zeitauswahl definieren."
+
+#: templates/admin_ajaxed.php:373
+msgid ""
+"This is the number of maximum persons in restaurant at any time. System will "
+"check automatically availability of free seats and will not allow to go "
+"beyond this number."
+msgstr "Dies ist die maximale Sitzplatzanzahl im Restaurant zu allen Zeiten. "
+
+#: templates/basicpackage.php:15
+msgid ""
+"This is your registration key. Please use it when you send request for "
+"support."
+msgstr ""
+"Dies ist deine Registrierungsnummer. Bitte teile sie uns bei allen Anfragen "
+"mit."
+
+#: templates/admin.php:255
+msgid "This option sets the calendar control to display all the time."
+msgstr "Diese Option aktiviert die dauerhafte Kalenderanzeige."
+
+#: templates/modify.php:29 templates/frontend.php:79 templates/frontend.php:202
+msgid "Time"
+msgstr "Zeit"
+
+#: templates/admin.php:477
+msgid ""
+"Time picker type if selected to be jQuery plugin, it is set to pop up with "
+"the hour and time."
+msgstr ""
+"Wenn bei Zeitauswahl das jQuery-Plugin ausgewählt ist, wird in einem Pop-Up "
+"eine Stunden- und Minutenauswahl angezeigt."
+
+#: templates/admin.php:457
+msgid "TimePicker type"
+msgstr "Zeitauswahl-Typ"
+
+#: templates/admin.php:345
+msgid "TimeShift Mode"
+msgstr "TimeShift-Modus"
+
+#: templates/modify.php:23 templates/modify.php:65
+msgid "Update reservation"
+msgstr "Reservierung aktualisieren"
+
+#: templates/admin_ajaxed.php:282
+msgid "URL"
+msgstr "URL"
+
+#: templates/basicpackage.php:55
+msgid ""
+"Use your Facebook account for your business. Make clients from your Facebook "
+"fans."
+msgstr ""
+"Nutze deinen Facebook-Account - generiere Kunden aus deinen Facebook-Fans."
+
+#: templates/admin.php:127
+msgid "User guideline"
+msgstr "Benutzerhandbuch"
+
+#: templates/admin.php:120
+msgid "Version"
+msgstr "Version"
+
+#: templates/admin.php:125
+msgid "Video tutorials"
+msgstr "Erklärvideos"
+
+#: templates/basicpackage.php:56
+msgid "View presentation."
+msgstr "Zeige Präsentation."
+
+#: templates/basicpackage.php:32
+msgid ""
+"View your upcoming reservations from your Mobile/Tablet PC and never miss "
+"your customer. This page should be open on a Tablet PC and so hostess can "
+"see all upcoming reservations for today. Page refreshes every 15 min and "
+"shows reservations that in past for 3 hours as well as upcoming reservations "
+"for next 24 hours. By clicking on reservation you will see reservation "
+"details. Demo version can be accessed for 30 days using this link: "
+msgstr ""
+"Zeige deine anstehenden Reservierungen auf deinem Tablet oder PC-Monitor an "
+"und verpasse nie eine Reservierung. Die Seite sollte dauerhaft geöffnet und "
+"von allen Servicekräften einsehbar sein. Die Seite aktualisiert sich "
+"automatisch alle 15 Minuten und zeigt die Reservierungen der nächsten 24 und "
+"der vergangenen 3 Stunden an. Mit einem Klick auf die Reservierung, werden "
+"die Reservierungsdetails angezeigt. Außerdem kannst du ganz einfach eine "
+"neue Reservierung anlegen. Die Demo-Version kann 30 Tage unter diesem Link "
+"getestet werden:"
+
+#: templates/admin.php:682
+msgid "Visit Google site"
+msgstr "Google site besuchen"
+
+#: templates/admin.php:689 templates/frontend.php:340
+msgid "Wait List"
+msgstr "Warteliste"
+
+#: templates/basicpackage.php:57
+msgid ""
+"We can offer you white labeled restaurant reservation application for "
+"Facebook Application, iPhone/iPad Application, Windows Phone Application or "
+"Android Application."
+msgstr ""
+"Wir bieten auch Apps für Facebook, iPhone/iPad, Windows Phone und Android an."
+" Sprich uns gerne an."
+
+#: templates/frontend.php:23
+msgid "Welcome back"
+msgstr "Willkommen zurück"
+
+#: templates/admin.php:137
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: templates/admin.php:427
+msgid ""
+"When enabled guests has to enter their phone number with country code. This "
+"is most useful when there is a good amount of foreing visitors. Also this "
+"option has to be enabled when SMS addon is in use, as SMS Providers requires "
+"full phone number."
+msgstr ""
+"Wenn diese Option aktiviert ist, müssen die Gäste ihre Telefonnummer mit dem "
+"Ländercode eingeben. Dies ist meist nützlich bei einer größeren Zahl "
+"ausländischer Gäste. Diese Option muss ebenfalls aktiviert sein, wenn das "
+"SMS-Addon genutzt wird, da der SMS Provider die Angabe der vollständigen "
+"Rufnummer mit vorangestelltem Ländercode benötigt."
+
+#: templates/admin.php:407
+msgid ""
+"When this enabled, start and end of reservation time will be displayed. This "
+"is useful when you want to inform the guest about fixed reservation time "
+"frame."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird die Start- und Endzeit der "
+"Reservierung angezeigt. Dies ist nützlich, wenn Gäste über einen "
+"festgelegten Reservierungszeitraum informiert werden sollen."
+
+#: templates/admin.php:698
+msgid ""
+"When this option is enabled, guest will have an opportunity to fill out Wait "
+"List form in case it's fully booked. Then if someone cancels reservation, "
+"this guest can be contacted and offered a reservation."
+msgstr ""
+"Wenn aktiviert können sich Gäste optional in eine Warteliste eintragen, wenn "
+"der Tag schon ausreserviert ist. Wenn eine bestehende Reservierung storniert "
+"wird, kann der Gast kontaktiert und ihm eine Reservierung angeboten werden."
+
+#: templates/admin.php:387
+msgid ""
+"When this option is enabled, then guest has to provide first and last name "
+"separately when filling reservation form. Otherwise Name is collected in a "
+"single field."
+msgstr ""
+"Wenn diese Option aktiviert ist, müssen Gäste ihren Vor- und Nachnamen beim "
+"Ausfüllen des Reservierungsformular angeben. Ansonsten wird nur ein Name "
+"gefordert."
+
+#: templates/admin.php:480
+msgid ""
+"With this option selected, the Time Picker is shown to be simple dropdown "
+"for selecting the hour and time."
+msgstr ""
+"Wenn diese Option aktiviert ist, wird die Zeitauswahl als Drop-Down-Menü "
+"(Stunden / Minuten) angezeigt."
+
+#: templates/admin.php:590
+msgid "With this option, confirmation email is not sent to the client."
+msgstr ""
+"Mit dieser Option wird die E-Mail Benachrichtigung an den Kunden deaktiviert."
+
+#: templates/admin_ajaxed.php:379
+msgid "Working time"
+msgstr "Öffnungszeiten"
+
+#: templates/admin_ajaxed.php:418
+msgid ""
+"You can specify the working time of restaurant by setting the opening time "
+"and closing time for each day of the week."
+msgstr ""
+"Du kannst die Öffnungszeiten für jeden Wochentag individuell einstellen."
+
+#: templates/admin_welcome.php:2
+msgid "You plugin is active. Your API Key is"
+msgstr "Dein Plugin ist aktiv. Dein API-Schlüssel lautet "
+
+#: templates/frontend.php:409
+msgid ""
+"Your information has been saved successfully and you will be notified once "
+"there are available seats for requested date."
+msgstr ""
+"Deine Angaben wurden erfolgreich gespeichert und du wirst informiert wenn "
+"Plätze an dem gewählten Tag frei werden sollten."
+
+#: templates/frontend.php:306
+msgid "Your reservation number for reference:"
+msgstr "Bitte notiere dir deine Reservierungsnummer: "
+
+#: templates/admin.php:151
+msgid "Your settings have been saved!"
+msgstr "Deine Einstellungen wurden gespeichert"
+
+#: templates/admin.php:318
+msgid "Сhildren selection"
+msgstr "Kinderbezogene Einstellungen"

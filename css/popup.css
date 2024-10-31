@@ -1,0 +1,114 @@
+.radi-modal {
+    position: fixed;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 100000;
+    display: none;
+    background: rgba(0,0,0,.6);
+}
+.radi-modal.active .radi-modal-dialog {
+    top: 10%;
+}
+.radi-modal .radi-modal-dialog {
+    background: transparent;
+    position: absolute;
+    left: 50%;
+    margin-left: -298px;
+    padding-bottom: 30px;
+    top: -100%;
+    z-index: 100001;
+    width: 596px;
+}
+.radi-modal .radi-modal-header {
+    border-bottom: #eee solid 1px;
+    background: #1b335f;
+    padding: 15px 20px;
+    position: relative;
+    margin-bottom: -10px;
+}
+.radi-modal .radi-modal-body, .radi-modal .radi-modal-footer {
+    border: 0;
+    background: #fefefe;
+    padding: 20px;
+}
+.radi-modal input[type="radio"]:checked ~ textarea {
+    display: block;
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 23px;
+    height: 100px;
+}
+.radi-modal .reason textarea{
+	display: none;
+}
+.radi-modal .radi-modal-header h4 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: .6px;
+    -webkit-font-smoothing: antialiased;
+}
+.radi-modal h3 {
+    margin-top: 0;
+    line-height: 1.5em;
+}
+.radi-modal-footer {
+    border-top: #eee solid 1px !important;
+    text-align: right;
+}
+#radi-list li span {
+    font-size: 14px;
+    color: #1b335f;
+}
+#radi-list .input_field input {
+    width: 100%;
+    margin-top: 10px;
+    height: 35px;
+}
+#radi-list .input_field input:last-child {
+    margin-bottom: 10px;
+}
+#radi-list span.input_field {
+    display: none;
+    padding-left: 24px;
+}
+#radi-list .input_field span {
+    display: none;
+}
+#radi-list li input[type="radio"]:checked ~ span.input_field {
+    display: block;
+}
+.radi-modal-footer .button-secondary {
+    background: #1b335f;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 14px;
+    border: none;
+    border-radius: 0;
+    margin-left: 10px;
+    transition: 0.4s all ease;
+}
+.radi-modal-footer .button-secondary:hover{
+    background: #135e96 !important;
+    color: #fff;
+}
+.radi-modal-footer .button-secondary.button-close{
+    background: #1777bb;
+}
+#radi-list input[type=radio]:checked::before{
+    background: #1b335f;
+}
+#radi-list input[type=radio]{
+    border-color: #1b335f;
+}
+@media(min-width: 961px) {
+    .radi-modal {
+        padding-left:160px;
+    }
+}

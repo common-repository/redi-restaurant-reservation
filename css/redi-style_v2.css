@@ -1,0 +1,1301 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+@font-face {
+  font-family: "redi-icons";
+  src: url("../fonts/redi-icons.eot?872796");
+  src: url("../fonts/redi-icons.eot?872796#iefix") format("embedded-opentype"), url("../fonts/redi-icons.woff2?872796") format("woff2"), url("../fonts/redi-icons.woff?872796") format("woff"), url("../fonts/redi-icons.ttf?872796") format("truetype"), url("../fonts/redi-icons.svg?872796#redi-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'redi-icons';
+    src: url('../font/redi-icons.svg?872796#redi-icons') format('svg');
+  }
+}
+*/
+
+[class^=icon-]:before,
+[class*=" icon-"]:before {
+  font-family: "redi-icons";
+  font-style: normal;
+  speak: never;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  /* margin-right: .2em; */
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /* margin-left: .2em; */
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-arrow-left-small:before {
+  content: "\e800";
+}
+
+/* '' */
+
+.icon-arrow-left:before {
+  content: "\e801";
+}
+
+/* '' */
+
+.icon-arrow-right-big:before {
+  content: "\e802";
+}
+
+/* '' */
+
+.icon-arrow-right-small:before {
+  content: "\e803";
+}
+
+/* '' */
+
+.icon-arrow-right:before {
+  content: "\e804";
+}
+
+/* '' */
+
+.icon-arrow-up-big:before {
+  content: "\e805";
+}
+
+/* '' */
+
+.icon-arrow-up-small:before {
+  content: "\e806";
+}
+
+/* '' */
+
+.icon-arrow-up:before {
+  content: "\e807";
+}
+
+/* '' */
+
+.icon-attach:before {
+  content: "\e808";
+}
+
+/* '' */
+
+.icon-attention:before {
+  content: "\e809";
+}
+
+/* '' */
+
+.icon-backup:before {
+  content: "\e80a";
+}
+
+/* '' */
+
+.icon-bike:before {
+  content: "\e80b";
+}
+
+/* '' */
+
+.icon-bookmark-border:before {
+  content: "\e80c";
+}
+
+/* '' */
+
+.icon-bookmark:before {
+  content: "\e80d";
+}
+
+/* '' */
+
+.icon-bus:before {
+  content: "\e80e";
+}
+
+/* '' */
+
+.icon-calendar:before {
+  content: "\e80f";
+}
+
+/* '' */
+
+.icon-car:before {
+  content: "\e810";
+}
+
+/* '' */
+
+.icon-card:before {
+  content: "\e811";
+}
+
+/* '' */
+
+.icon-cart:before {
+  content: "\e812";
+}
+
+/* '' */
+
+.icon-chart-on-surface:before {
+  content: "\e813";
+}
+
+/* '' */
+
+.icon-chart:before {
+  content: "\e814";
+}
+
+/* '' */
+
+.icon-check-circle:before {
+  content: "\e815";
+}
+
+/* '' */
+
+.icon-check:before {
+  content: "\e816";
+}
+
+/* '' */
+
+.icon-chevron-down:before {
+  content: "\e817";
+}
+
+/* '' */
+
+.icon-chevron-left:before {
+  content: "\e818";
+}
+
+/* '' */
+
+.icon-chevron-right:before {
+  content: "\e819";
+}
+
+/* '' */
+
+.icon-chevron-up:before {
+  content: "\e81a";
+}
+
+/* '' */
+
+.icon-child:before {
+  content: "\e81b";
+}
+
+/* '' */
+
+.icon-cloud-done:before {
+  content: "\e81c";
+}
+
+/* '' */
+
+.icon-cloud-download:before {
+  content: "\e81d";
+}
+
+/* '' */
+
+.icon-cloud:before {
+  content: "\e81e";
+}
+
+/* '' */
+
+.icon-comments:before {
+  content: "\e81f";
+}
+
+/* '' */
+
+.icon-copy:before {
+  content: "\e820";
+}
+
+/* '' */
+
+.icon-cross-circle:before {
+  content: "\e821";
+}
+
+/* '' */
+
+.icon-cross:before {
+  content: "\e822";
+}
+
+/* '' */
+
+.icon-delete:before {
+  content: "\e823";
+}
+
+/* '' */
+
+.icon-dollar:before {
+  content: "\e824";
+}
+
+/* '' */
+
+.icon-double-check:before {
+  content: "\e825";
+}
+
+/* '' */
+
+.icon-download:before {
+  content: "\e826";
+}
+
+/* '' */
+
+.icon-edit:before {
+  content: "\e828";
+}
+
+/* '' */
+
+.icon-euro:before {
+  content: "\e829";
+}
+
+/* '' */
+
+.icon-eye-close:before {
+  content: "\e82a";
+}
+
+/* '' */
+
+.icon-eye:before {
+  content: "\e82b";
+}
+
+/* '' */
+
+.icon-flag:before {
+  content: "\e82c";
+}
+
+/* '' */
+
+.icon-folder:before {
+  content: "\e82d";
+}
+
+/* '' */
+
+.icon-gallery:before {
+  content: "\e82e";
+}
+
+/* '' */
+
+.icon-geo:before {
+  content: "\e82f";
+}
+
+/* '' */
+
+.icon-heart-line:before {
+  content: "\e830";
+}
+
+/* '' */
+
+.icon-heart:before {
+  content: "\e831";
+}
+
+/* '' */
+
+.icon-help:before {
+  content: "\e832";
+}
+
+/* '' */
+
+.icon-history:before {
+  content: "\e833";
+}
+
+/* '' */
+
+.icon-home:before {
+  content: "\e834";
+}
+
+/* '' */
+
+.icon-image:before {
+  content: "\e835";
+}
+
+/* '' */
+
+.icon-link:before {
+  content: "\e836";
+}
+
+/* '' */
+
+.icon-location:before {
+  content: "\e837";
+}
+
+/* '' */
+
+.icon-lock:before {
+  content: "\e838";
+}
+
+/* '' */
+
+.icon-mail:before {
+  content: "\e839";
+}
+
+/* '' */
+
+.icon-map:before {
+  content: "\e83a";
+}
+
+/* '' */
+
+.icon-mic-off:before {
+  content: "\e83b";
+}
+
+/* '' */
+
+.icon-mic:before {
+  content: "\e83c";
+}
+
+/* '' */
+
+.icon-minus:before {
+  content: "\e83d";
+}
+
+/* '' */
+
+.icon-mobile:before {
+  content: "\e83e";
+}
+
+/* '' */
+
+.icon-more-horiz:before {
+  content: "\e83f";
+}
+
+/* '' */
+
+.icon-more-vert:before {
+  content: "\e840";
+}
+
+/* '' */
+
+.icon-notifications-off:before {
+  content: "\e841";
+}
+
+/* '' */
+
+.icon-notifications:before {
+  content: "\e842";
+}
+
+/* '' */
+
+.icon-offer:before {
+  content: "\e843";
+}
+
+/* '' */
+
+.icon-new-tab:before {
+  content: "\e844";
+}
+
+/* '' */
+
+.icon-pause:before {
+  content: "\e845";
+}
+
+/* '' */
+
+.icon-phone:before {
+  content: "\e846";
+}
+
+/* '' */
+
+.icon-person:before {
+  content: "\e847";
+}
+
+/* '' */
+
+.icon-photo-camera:before {
+  content: "\e848";
+}
+
+/* '' */
+
+.icon-placeholder:before {
+  content: "\e849";
+}
+
+/* '' */
+
+.icon-play-circle:before {
+  content: "\e84a";
+}
+
+/* '' */
+
+.icon-play:before {
+  content: "\e84b";
+}
+
+/* '' */
+
+.icon-plus-circle:before {
+  content: "\e84c";
+}
+
+/* '' */
+
+.icon-plus:before {
+  content: "\e84d";
+}
+
+/* '' */
+
+.icon-profile:before {
+  content: "\e84e";
+}
+
+/* '' */
+
+.icon-qr:before {
+  content: "\e84f";
+}
+
+/* '' */
+
+.icon-refresh:before {
+  content: "\e850";
+}
+
+/* '' */
+
+.icon-restaurant:before {
+  content: "\e851";
+}
+
+/* '' */
+
+.icon-scan:before {
+  content: "\e852";
+}
+
+/* '' */
+
+.icon-run:before {
+  content: "\e853";
+}
+
+/* '' */
+
+.icon-search:before {
+  content: "\e854";
+}
+
+/* '' */
+
+.icon-send:before {
+  content: "\e855";
+}
+
+/* '' */
+
+.icon-settings:before {
+  content: "\e856";
+}
+
+/* '' */
+
+.icon-shield:before {
+  content: "\e857";
+}
+
+/* '' */
+
+.icon-signal-off:before {
+  content: "\e858";
+}
+
+/* '' */
+
+.icon-signal-on:before {
+  content: "\e859";
+}
+
+/* '' */
+
+.icon-star:before {
+  content: "\e85a";
+}
+
+/* '' */
+
+.icon-swap-horiz:before {
+  content: "\e85b";
+}
+
+/* '' */
+
+.icon-swap-vert-circle:before {
+  content: "\e85c";
+}
+
+/* '' */
+
+.icon-thumb-down:before {
+  content: "\e85d";
+}
+
+/* '' */
+
+.icon-thumb-up:before {
+  content: "\e85e";
+}
+
+/* '' */
+
+.icon-ticket:before {
+  content: "\e85f";
+}
+
+/* '' */
+
+.icon-touch-id:before {
+  content: "\e860";
+}
+
+/* '' */
+
+.icon-train:before {
+  content: "\e861";
+}
+
+/* '' */
+
+.icon-unfold-more:before {
+  content: "\e862";
+}
+
+/* '' */
+
+.icon-unfold-less:before {
+  content: "\e863";
+}
+
+/* '' */
+
+.icon-volume-off:before {
+  content: "\e864";
+}
+
+/* '' */
+
+.icon-volume:before {
+  content: "\e865";
+}
+
+/* '' */
+
+.icon-wallet:before {
+  content: "\e866";
+}
+
+/* '' */
+
+.icon-watch:before {
+  content: "\e867";
+}
+
+/* '' */
+
+.icon-wifi-off:before {
+  content: "\e868";
+}
+
+/* '' */
+
+.icon-2-people:before {
+  content: "\e86a";
+}
+
+/* '' */
+
+.icon-add-user:before {
+  content: "\e86b";
+}
+
+/* '' */
+
+.icon-arrow-down-big:before {
+  content: "\e86c";
+}
+
+/* '' */
+
+.icon-arrow-down:before {
+  content: "\e86d";
+}
+
+/* '' */
+
+.icon-arrow-drop-down:before {
+  content: "\e86e";
+}
+
+/* '' */
+
+.icon-arrow-left-big:before {
+  content: "\e86f";
+}
+
+/* '' */
+
+.icon-wifi:before {
+  content: "\e870";
+}
+
+/* '' */
+
+.icon-edit-1:before {
+  content: "\e871";
+}
+
+/* '' */
+
+.icon-earth:before {
+  content: "\e872";
+}
+
+/* '' */
+
+.redi-reservation-form {
+  clear: both;
+  margin: 0 auto;
+  /* Center horizontally */
+  margin-top: 60px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: #171d29;
+  min-width: 240px;
+  max-width: 480px;
+}
+
+.redi-step__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  clear: both;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
+}
+
+.redi-step__item h1 {
+  width: 100%;
+  margin: 53px 49px 16px 17px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: 0.2px;
+  color: #171d29;
+}
+
+/* Make circles that indicate the steps of the form: */
+
+.redi-steps-nav {
+  list-style: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.redi-steps-nav .redi-steps-nav__step {
+  position: relative;
+  display: flow-root;
+  margin-left: 92px;
+}
+
+.redi-steps-nav .redi-steps-nav__step:last-child {
+  padding-right: 70px;
+}
+
+.redi-steps-nav .redi-steps-nav__step:last-child .redi-steps-nav__step__line {
+  display: none;
+}
+
+.redi-steps-nav .redi-steps-nav__step .icon-check {
+  display: none;
+}
+
+.redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__line {
+  position: absolute;
+  width: 92px;
+  height: 2px;
+  right: -92px;
+  top: 11px;
+  background-color: #c8c9cc;
+  z-index: 1;
+}
+
+.redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__number {
+  width: 40px;
+  height: 40px;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.3px;
+  color: #fff;
+  background-color: #c8c9cc;
+  border: none;
+  border-radius: 50%;
+  display: block;
+  margin-top: -8px;
+  z-index: 3;
+}
+
+.redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__description {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  width: 132px;
+  margin-left: -46px;
+  line-height: 1.25;
+  letter-spacing: -0.3px;
+  color: #81858b;
+  font-size: 16px;
+}
+
+/* Mark the active step: */
+
+.redi-steps-nav__step.active .redi-steps-nav__step__number {
+  background-color: #0072ff;
+}
+
+.redi-steps-nav__step.active .redi-steps-nav__step__description {
+  color: #171d29;
+}
+
+.redi-steps-nav__step.active .redi-steps-nav__step__progress {
+  position: absolute;
+  width: 50%;
+  height: 2px;
+  background-color: #0072ff;
+  -webkit-transition-delay: 200ms;
+          transition-delay: 200ms;
+}
+
+/* Mark the steps that are finished and valid: */
+
+.redi-steps-nav__step.completed .icon-check {
+  color: #0072ff;
+  width: 40px;
+  height: 40px;
+  padding: 10px 12px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.3px;
+  color: #fff;
+  background-color: #0072ff;
+  border: none;
+  border-radius: 50%;
+  display: block;
+  margin-top: -8px;
+  z-index: 3;
+}
+
+.redi-steps-nav__step.completed .redi-steps-nav__step__number {
+  display: none;
+}
+
+.redi-steps-nav__step.completed .redi-steps-nav__step__description {
+  color: #0072ff;
+}
+
+.redi-steps-nav__step.completed .redi-steps-nav__step__progress {
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #0072ff;
+}
+
+.redi-place-container {
+  width: 100%;
+}
+
+.redi-places {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 20px -10px rgba(0, 0, 0, 0.1);
+  border: solid 1px #ededee;
+  background-color: #ffffff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.redi-places .place-not-selected {
+  height: 30px;
+}
+
+.redi-places .place-options {
+  display: none;
+}
+
+.redi-places .redi-place {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.redi-places .place-selected .select-place-icon,
+.redi-places .select-place-icon {
+  width: 18px;
+  height: 18px;
+  margin: auto 10px auto;
+  border-radius: 50%;
+  display: block;
+}
+
+.redi-places .place-selected .select-place-icon {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.3px;
+  color: #fff;
+  background-color: #0072ff;
+  border: none;
+  padding: 2px 3px;
+}
+
+.redi-places .select-place-icon {
+  background-color: #c8c9cc;
+  border: none;
+}
+
+.redi-places .select-place-option-icon {
+  width: 18px;
+  height: 18px;
+  margin: auto 10px auto;
+  background-color: transparent;
+  border: 2px solid #0072ff;
+  border-radius: 50%;
+  display: block;
+}
+
+.redi-places .icon-chevron-down,
+.redi-places .icon-chevron-up {
+  margin-left: auto;
+}
+
+.redi-places .name {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: -0.3px;
+  color: #171d29;
+}
+
+.redi-places .address {
+  font-family: Inter;
+  font-size: 10px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: -0.21px;
+  color: #81858b;
+}
+
+.redi-places .options {
+  display: none;
+}
+
+.place-options .redi-place {
+  padding-bottom: 8px;
+}
+
+.place-options .redi-place:first-child {
+  padding-top: 8px;
+}
+
+@media (max-width: 767px) {
+  .redi-steps-nav {
+    list-style: none;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  /* Mark the active step: */
+
+  /* Mark the steps that are finished and valid: */
+
+  .redi-steps-nav .redi-steps-nav__step {
+    position: relative;
+    display: flow-root;
+    margin-left: 60px;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step:last-child {
+    padding-right: 70px;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step:last-child .redi-steps-nav__step__line {
+    display: none;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .icon-check {
+    display: none;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__line {
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    right: -60px;
+    top: 11px;
+    background-color: #c8c9cc;
+    z-index: 1;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__number {
+    width: 40px;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: -0.3px;
+    color: #fff;
+    background-color: #c8c9cc;
+    border: none;
+    border-radius: 50%;
+    display: block;
+    margin-top: -8px;
+    z-index: 3;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__description {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    width: 100px;
+    margin-left: -30px;
+    line-height: 1.25;
+    letter-spacing: -0.3px;
+    color: #81858b;
+    font-size: 16px;
+  }
+
+  .redi-steps-nav__step.active .redi-steps-nav__step__number {
+    background-color: #0072ff;
+  }
+
+  .redi-steps-nav__step.active .redi-steps-nav__step__description {
+    color: #171d29;
+  }
+
+  .redi-steps-nav__step.active .redi-steps-nav__step__progress {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #0072ff;
+    -webkit-transition-delay: 200ms;
+            transition-delay: 200ms;
+  }
+
+  .redi-steps-nav__step.completed .icon-check {
+    color: #0072ff;
+    width: 40px;
+    height: 40px;
+    padding: 10px 12px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: -0.3px;
+    color: #fff;
+    background-color: #0072ff;
+    border: none;
+    border-radius: 50%;
+    display: block;
+    margin-top: -8px;
+    z-index: 3;
+  }
+
+  .redi-steps-nav__step.completed .redi-steps-nav__step__number {
+    display: none;
+  }
+
+  .redi-steps-nav__step.completed .redi-steps-nav__step__description {
+    color: #0072ff;
+  }
+
+  .redi-steps-nav__step.completed .redi-steps-nav__step__progress {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0072ff;
+  }
+
+  .redi-steps-nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) and (max-width: 767px) {
+  .redi-steps-nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) and (max-width: 425px) {
+  .redi-steps-nav {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 425px) {
+  .redi-steps-nav {
+    zoom: 0.8;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+  .redi-steps-nav {
+    list-style: none;
+    padding-left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  /* Mark the active step: */
+
+  /* Mark the steps that are finished and valid: */
+
+  .redi-steps-nav .redi-steps-nav__step {
+    position: relative;
+    display: flow-root;
+    margin-left: 70px;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step:last-child {
+    padding-right: 70px;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step:last-child .redi-steps-nav__step__line {
+    display: none;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .icon-check {
+    display: none;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__line {
+    position: absolute;
+    width: 70px;
+    height: 2px;
+    right: -70px;
+    top: 11px;
+    background-color: #c8c9cc;
+    z-index: 1;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__number {
+    width: 40px;
+    height: 40px;
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: -0.3px;
+    color: #fff;
+    background-color: #c8c9cc;
+    border: none;
+    border-radius: 50%;
+    display: block;
+    margin-top: -8px;
+    z-index: 3;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__description {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute;
+    width: 110px;
+    margin-left: -35px;
+    line-height: 1.25;
+    letter-spacing: -0.3px;
+    color: #81858b;
+    font-size: 16px;
+  }
+
+  .redi-steps-nav__step.active .redi-steps-nav__step__number {
+    background-color: #0072ff;
+  }
+
+  .redi-steps-nav__step.active .redi-steps-nav__step__description {
+    color: #171d29;
+  }
+
+  .redi-steps-nav__step.active .redi-steps-nav__step__progress {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background-color: #0072ff;
+    -webkit-transition-delay: 200ms;
+            transition-delay: 200ms;
+  }
+
+  .redi-steps-nav__step.completed .icon-check {
+    color: #0072ff;
+    width: 40px;
+    height: 40px;
+    padding: 10px 12px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: -0.3px;
+    color: #fff;
+    background-color: #0072ff;
+    border: none;
+    border-radius: 50%;
+    display: block;
+    margin-top: -8px;
+    z-index: 3;
+  }
+
+  .redi-steps-nav__step.completed .redi-steps-nav__step__number {
+    display: none;
+  }
+
+  .redi-steps-nav__step.completed .redi-steps-nav__step__description {
+    color: #0072ff;
+  }
+
+  .redi-steps-nav__step.completed .redi-steps-nav__step__progress {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0072ff;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) and (max-width: 767px) {
+  .redi-steps-nav {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .redi-steps-nav .redi-steps-nav__step .redi-steps-nav__step__description {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) and (max-width: 425px) {
+  .redi-steps-nav {
+    zoom: 0.8;
+  }
+}

@@ -1,0 +1,1783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ReDi Restaurant Reservation\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-27 20:58+0000\n"
+"PO-Revision-Date: 2023-07-04 18:28+0000\n"
+"Last-Translator: \n"
+"Language-Team: Lithuanian\n"
+"Language: lt\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.4; wp-6.2.2\n"
+"X-Domain: redi-restaurant-reservation"
+
+#: templates/admin_welcome_no_key.php:6
+msgid " Registration"
+msgstr "Registracija"
+
+#: templates/admin_welcome_no_page.php:5
+msgid " Reservation page"
+msgstr "Rezervacijos puslapis"
+
+#: templates/admin.php:525 templates/admin.php:527 templates/admin.php:529
+#: templates/admin.php:531 templates/admin.php:533 templates/admin.php:535
+#, php-format
+msgid "%d min"
+msgstr "%d min"
+
+#: functions/notice.php:40
+#, php-format
+msgid ""
+"<b>ReDi Restaurant Reservation Plugin</b> Plugin is active but API key is "
+"not generated yet to use the plugin. Finilize setup wizard now for seamless "
+"bookings. Visit the %s to finilize configuration!"
+msgstr ""
+"<b>ReDi restorano rezervacijos įskiepis</b>. Įskiepis yra aktyvus, tačiau "
+"dar nesukurtas API raktas, reikalingas naudoti įskiepį. Galutinai "
+"sukonfigūruokite diegimo vedlį, kad rezervacijos būtų sklandžios. "
+"Apsilankykite svetainėje %s ir užbaikite konfigūraciją!"
+
+#: functions/notice.php:52
+#, php-format
+msgid ""
+"<b>ReDi Restaurant Reservation Plugin</b> Plugin is active but you have not "
+"created a page with reservation form. Finilize setup wizard now for seamless "
+"bookings. Visit the %s to finilize configuration!"
+msgstr ""
+"<b>ReDi restorano rezervacijos įskiepis</b> yra aktyvus, tačiau dar "
+"nesukūrėte puslapio su rezervacijos forma. Galutinai sukonfigūruokite "
+"diegimo vedlį, kad rezervacijos būtų sklandžios. Apsilankykite svetainėje %s "
+"ir užbaikite konfigūraciją!"
+
+#: redi-restaurant-reservation.php:445
+msgid ""
+"<br/>In case you can not solve this problem yourself, please contact us "
+"directly by <a href=\"mailto:info@reservationdiary.eu\">"
+"info@reservationdiary.eu</a>"
+msgstr ""
+"<br/>Jei negalite išspręsti šios problemos patys, prašome susisiekti su "
+"mumis tiesiogiai el. paštu adresu <a href=\"mailto:info@reservationdiary."
+"eu\">info@reservationdiary.eu</a>"
+
+#: templates/admin_ajaxed.php:126
+msgid "Address"
+msgstr "Adresas"
+
+#: templates/admin_ajaxed.php:134
+msgid "Address of the restaurant is to be written here."
+msgstr "Restorano adresas turi būti įrašytas čia."
+
+#: templates/admin_ajaxed.php:491
+msgid "Allow SMS"
+msgstr "Leisti SMS"
+
+#: templates/admin.php:64
+msgid "Allow to receive SMS"
+msgstr "Leisti gauti SMS žinutes"
+
+#: templates/admin_welcome_no_key.php:19
+msgid "Allow to send information about the plugin"
+msgstr "Leisti siųsti informaciją apie įskiepį"
+
+#: templates/admin.php:519
+msgid "Alternative time step"
+msgstr "Alternatyvus laiko intervalas"
+
+#: templates/admin.php:272
+msgid "Always show"
+msgstr "Visada rodyti"
+
+#: templates/admin_welcome_no_key.php:32 templates/admin_welcome_no_key.php:37
+msgid "API Key"
+msgstr "API Raktas"
+
+#: redi-restaurant-reservation.php:431
+msgid "API key is successfully changed."
+msgstr "API raktas sėkmingai pakeistas."
+
+#: redi-restaurant-reservation.php:2130
+msgid "Api key should be a GUID number."
+msgstr "Api raktas turi būti GUID numeris."
+
+#: templates/basicpackage.php:4
+msgid "ApiKey"
+msgstr "ApiKey"
+
+#: templates/admin.php:138
+msgid "Authors"
+msgstr "Autoriai"
+
+#: redi-restaurant-reservation.php:1249
+msgid "Available seats"
+msgstr "Prieinami vietos"
+
+#: templates/admin.php:427
+msgid "Available Time Appearance"
+msgstr "Turimo laiko atvaizdavimas"
+
+#: templates/cancel.php:3 templates/modify.php:3 templates/modify.php:24
+msgid "Back to reservation page"
+msgstr "Grįžti į rezervacijos puslapį"
+
+#: templates/basicpackage.php:17
+msgid "Basic package functionality (paid version)"
+msgstr "Bazinio paketo funkcionalumai (mokama versija)"
+
+#: templates/admin_welcome_no_key.php:31
+msgid "Below is your API Key, please use it when you ask for a support. "
+msgstr "Tai yra Jūsų API Raktas, prašome jį nurodyti kreipiantis dėl pagalbos."
+
+#: templates/admin.php:61 templates/admin_ajaxed.php:495
+msgid "Birthday"
+msgstr "Gimimo diena"
+
+#: templates/admin.php:66
+msgid "Birthday (dd/mm)"
+msgstr "Gimimo diena (dd/mm)"
+
+#: templates/basicpackage.php:29
+msgid ""
+"Blocked Time. Define time range when online reservation should not be "
+"accepted. Specify a reason why reservations are not accepted at this time to "
+"keep your clients happy."
+msgstr ""
+"Blokuotas laikas. Apibrėžkite laiko intervalą, kada rezervacija internetu "
+"neturėtų būti priimama. Nurodykite priežastį, kodėl rezervacijos šiuo laiku "
+"nepriimamos, kad klientai liktų patenkinti."
+
+#: templates/admin.php:474
+msgid "By shifts"
+msgstr "Pagal pamainas"
+
+#: templates/admin.php:250
+msgid "Calendar type"
+msgstr "Kalendoriaus rūšis"
+
+#: templates/admin.php:112 templates/admin.php:818 templates/admin.php:832
+#: templates/cancel.php:3 templates/cancel.php:19 templates/confirm.php:41
+#: templates/frontend.php:10
+msgid "Cancel reservation"
+msgstr "Atšaukti rezervaciją"
+
+#: templates/admin.php:628
+msgid "Captcha"
+msgstr "Captcha"
+
+#: redi-restaurant-reservation.php:1248
+msgid "Captcha is not valid."
+msgstr "CAPTCHA yra neteisinga."
+
+#: templates/admin.php:644
+msgid "Captcha key"
+msgstr "Captcha raktas"
+
+#: templates/basicpackage.php:12
+msgid "Change"
+msgstr "Pakeisti"
+
+#: templates/basicpackage.php:7
+msgid "Change API key"
+msgstr ""
+"Pakeisti API raktą\n"
+
+#: templates/frontend.php:233
+msgid "Change details"
+msgstr "Pakeisti detales"
+
+#: templates/frontend.php:166
+msgid "Check available time"
+msgstr "Patikrinkite laisvą laiką"
+
+#: templates/admin_ajaxed.php:485
+msgid "Check box"
+msgstr "Žymimasis langelis"
+
+#: redi-restaurant-reservation.php:1781 templates/frontend.php:92
+msgid "Children"
+msgstr "Vaikai"
+
+#: templates/admin_ajaxed.php:111
+msgid "City"
+msgstr "Miestas"
+
+#: functions/notice.php:80
+msgid "Click here to open reservation page"
+msgstr "Spustelėkite čia, kad atidarytumėte rezervacijos puslapį"
+
+#: templates/admin_ajaxed.php:249
+msgid "Close"
+msgstr ""
+"Uždaryti\n"
+
+#: templates/admin.php:590
+msgid "Collect First and Last name"
+msgstr "Rinkti vardą ir pavardę"
+
+#: templates/admin.php:610
+msgid "Collect phone number with country code"
+msgstr "Saugoti telefono numerį su šalies kodu"
+
+#: templates/basicpackage.php:53
+msgid "Collect pre-payment for reservations."
+msgstr "Rinkti išankstinius mokėjimus už užsakymus."
+
+#: templates/admin.php:215
+msgid "Collect user experience feedback"
+msgstr "Rinkti grįžtamąjį ryšį apie vartotojų patirtį"
+
+#: templates/frontend.php:284 templates/modify.php:58
+msgid "Comment"
+msgstr "Komentaras"
+
+#: functions/notice.php:67
+msgid "Configuration page"
+msgstr "Konfigūracijos puslapis"
+
+#: templates/confirm.php:40
+msgid "Confirm visit"
+msgstr "Patvirtinkite apsilankymą"
+
+#: templates/admin.php:735
+msgid "Confirmation page"
+msgstr "Patvirtinimo puslapis"
+
+#: redi-restaurant-reservation.php:1182 redi.php:285
+msgid "contact us directly"
+msgstr "kreipkitės į mus tiesiogiai"
+
+#: templates/admin_ajaxed.php:91
+msgid "Country"
+msgstr "Šalis"
+
+#: redi-restaurant-reservation.php:588
+msgid "Country is required"
+msgstr "Šalis yra privaloma"
+
+#: templates/admin_ajaxed.php:62
+msgid "Current Place ID"
+msgstr "Dabartinės vietos ID"
+
+#: templates/admin.php:667
+msgid "Current time"
+msgstr "Esamas laikas"
+
+#: redi-restaurant-reservation.php:1891 templates/frontend.php:443
+msgid "Custom field is required"
+msgstr "Privalomas pasirinktinis laukas"
+
+#: templates/admin_ajaxed.php:388
+msgid "Custom fields"
+msgstr "Pasirinkimo laukai"
+
+#: templates/admin_ajaxed.php:393
+msgid ""
+"Custom fields are meant to allow users define additional fields for "
+"collecting more information from customers. You can choose the name of the "
+"field, type of field, the constraint whether it is a required field or not "
+"and the error message for the required field."
+msgstr ""
+"Pasirinkimo laukai skirti tam, kad naudotojai galėtų apibrėžti papildomus "
+"laukus, kuriuose būtų galima surinkti daugiau informacijos iš klientų. "
+"Galite pasirinkti lauko pavadinimą, lauko tipą, apribojimą, ar tai "
+"privalomas laukas, ar ne, ir privalomo lauko klaidos pranešimą."
+
+#: templates/admin.php:175
+msgid "Data Input Appearance"
+msgstr "Duomenų įvesties išvaizda"
+
+#: templates/confirm.php:16 templates/frontend.php:106
+#: templates/frontend.php:402 templates/modify.php:28
+msgid "Date"
+msgstr "Data"
+
+#: templates/admin.php:281
+msgid "Date format"
+msgstr "Datos formatas"
+
+#: templates/admin_ajaxed.php:345 templates/admin_ajaxed.php:368
+msgid "Days"
+msgstr "Dienos"
+
+#: templates/admin.php:421
+msgid "Description for children dropdown"
+msgstr "Vaikų išskleidžiamojo sąrašo aprašymas"
+
+#: templates/admin.php:711 templates/admin.php:727
+msgid "Disable confirmation email"
+msgstr "Išjungti patvirtinimo el. laišką"
+
+#: redi-restaurant-reservation.php:1772
+msgid "Discount"
+msgstr "Nuolaida"
+
+#: templates/admin.php:504
+msgid "Display left seats"
+msgstr "Rodyti likusias sėdynes"
+
+#: templates/admin.php:540
+msgid ""
+"Displays the available time with time step to the clients. For instance, if "
+"one selects 15 min time step, then alternative time will be 10:00, 10:15, 10:"
+"30, etc."
+msgstr ""
+"Rodo klientams turimą laiką nustatytu laiko žingsniu. Pavyzdžiui, pasirinkus "
+"15 min. laiko žingsnį, alternatyvus laikas bus 10:00, 10:15, 10:30 ir t. t."
+
+#: templates/basicpackage.php:49
+msgid ""
+"Do you want to know what your client thinks about his last visit? We will "
+"collect it for you."
+msgstr ""
+"Ar norite sužinoti, ką jūsų klientas mano apie paskutinį apsilankymą? Mes "
+"tai pasiteirausime už jus."
+
+#: templates/basicpackage.php:56
+msgid ""
+"Do you want to write your own module? We have an API. Contact us to get more "
+"information."
+msgstr ""
+"Ar norite parašyti savo modulį? Turime API. Susisiekite su mumis ir gaukite "
+"daugiau informacijos."
+
+#: templates/admin_welcome.php:20
+#, fuzzy
+#| msgid ""
+#| "Don’t want to spend time understanding how plugin works and how to setup, "
+#| "\n"
+#| "                    signup for a demo free of charge. We are here to help "
+#| "you."
+msgid ""
+"Don’t want to spend time understanding how plugin works and how to setup, "
+"signup for a demo free of charge. We are here to help you."
+msgstr ""
+"Nenorite gaišti laiko bandydami suprasti kaip veikia ir kaip nustatyti "
+"įskiepį?\n"
+"                  prisijunkite nemokamai demo versijai. Mes esme čia tam, "
+"kad pagelbėtume."
+
+#: templates/admin.php:291
+msgid "Dot"
+msgstr "Taškas"
+
+#: templates/admin_ajaxed.php:499
+msgid "DropDown"
+msgstr "Išskleidžiamasis sąrašas"
+
+#: templates/frontend.php:142
+msgid "Duration"
+msgstr "Trukmė"
+
+#: templates/admin_ajaxed.php:327
+msgid ""
+"Duration of reservation in minutes. This is the time allocated for each "
+"reservation so the reservation system can calculate availability. Enter here "
+"average time that guests stays in."
+msgstr ""
+"Rezervacijos trukmė minutėmis. Tai laikas, skirtas kiekvienam užsakymui, kad "
+"rezervavimo sistema galėtų apskaičiuoti užimtumą. Čia įveskite vidutinį "
+"svečių buvimo laiką per vieną apsilankymą."
+
+#: templates/admin_ajaxed.php:360
+msgid "Early Bookings"
+msgstr "Ankstyvieji užsakymai"
+
+#: templates/admin.php:132 templates/admin_ajaxed.php:156
+#: templates/admin_welcome_no_key.php:13 templates/cancel.php:14
+#: templates/frontend.php:242 templates/frontend.php:271
+#: templates/frontend.php:421 templates/modify.php:13 templates/modify.php:54
+msgid "Email"
+msgstr "El. paštas"
+
+#: templates/admin_ajaxed.php:164
+msgid "Email address for contacting the restaurant."
+msgstr "El. paštas, skirtas susisiekti su restoranu."
+
+#: redi-restaurant-reservation.php:1240
+msgid "Email can't be empty"
+msgstr "El. paštas negali būti tuščias"
+
+#: templates/admin_ajaxed.php:171
+msgid "Email CC"
+msgstr "El. paštas CC"
+
+#: redi-restaurant-reservation.php:2112
+msgid "Email is not valid."
+msgstr "El. pašto adresas yra neteisingas."
+
+#: redi-restaurant-reservation.php:2109
+msgid "Email is required."
+msgstr "El. paštas yra privalomas."
+
+#: templates/basicpackage.php:33
+msgid "Email template customization for all supported languages."
+msgstr "Laiško šablono pritaikymas visoms palaikomoms kalboms."
+
+#: templates/admin.php:722
+msgid ""
+"Emails will be sent via SMTP server that is configured in Basic settings."
+msgstr ""
+"Laiškai bus siunčiami per SMTP serverį, kuris sukonfigūruotas pagrindiniuose "
+"nustatymuose."
+
+#: templates/admin.php:183
+msgid "Enable cancel form"
+msgstr ""
+"Įjungti atšaukimo formą\n"
+
+#: templates/admin.php:199
+msgid "Enable modify reservations"
+msgstr "Įgalinti rezervacijos keitimą"
+
+#: templates/admin.php:208
+msgid "Enable or Disable modify reservation."
+msgstr "Įjungti arba išjungti rezervavimo keitimą."
+
+#: templates/admin.php:192
+msgid "Enable or Disable reservation cancel form."
+msgstr "Įjungti arba išjungti rezervavimo atšaukimo formą."
+
+#: templates/admin.php:240
+msgid ""
+"Enable or Disable social network account login. When enabled clients can "
+"login with any social network accounts like Facebook and then reservation "
+"form will be pre-filled with personal information. Also if user logins with "
+"social network but does not complete the reservation, he will receive a "
+"reminder to finalize it. You need to install and setup plugin with name "
+"'Super Socializer' from WordPress directory."
+msgstr ""
+"Įjungti arba išjungti prisijungimą prie socialinio tinklo paskyros. Jei "
+"įjungta, klientai gali prisijungti prie bet kurios socialinio tinklo "
+"paskyros, pvz., \"Facebook\", ir tada užsakymo forma bus automatiškai "
+"užpildyta asmenine informacija. Be to, jei naudotojas prisijungs prie "
+"socialinio tinklo, bet neužbaigs rezervacijos, jis gaus priminimą ją "
+"užbaigti. Reikia įdiegti ir nustatyti įskiepį, kurio pavadinimas \"Super "
+"Socializer\", iš \"WordPress\" katalogo."
+
+#: templates/admin.php:231
+msgid "Enable social network login"
+msgstr "Įjungti socialinio tinklo prisijungimą"
+
+#: templates/admin.php:637
+msgid "Enable/Disable captcha on reservation form."
+msgstr "Įjungti / išjungti captcha rezervavimo formoje."
+
+#: templates/admin.php:410
+msgid "Enable/Disable children dropdown"
+msgstr "Įjungti / išjungti vaikų išskleidžiamąjį langą"
+
+#: templates/basicpackage.php:47
+msgid ""
+"Enhance your business experience by using our Facebook integration service "
+"where we try to provide you with profile pictures of your customers if found."
+" You can amaze your customer by knowing him by face when he visits you, "
+"especially at the time of first visit."
+msgstr ""
+"Pagerinkite savo verslo patirtį naudodamiesi \"Facebook\" integracijos "
+"paslauga, kurioje stengiamės pateikti jūsų klientų profilio nuotraukas, jei "
+"jos randamos. Galite nustebinti savo klientą pažindami jį iš veido, kai jis "
+"pas jus apsilanko, ypač pirmojo apsilankymo metu."
+
+#: templates/admin_ajaxed.php:405
+msgid "Field name"
+msgstr "Lauko vardas"
+
+#: templates/admin_ajaxed.php:415
+msgid "Field type"
+msgstr "Lauko tipas"
+
+#: functions/notice.php:91
+#, php-format
+msgid ""
+"Finally, one last step in <b>ReDi Restaurant Reservation Plugin</b> setup to "
+"impress your clients, make a test reservation. <b>%s</b>%s"
+msgstr ""
+"Pagaliau, paskutinis žingsnis <b>ReDi restorano rezervacijos įskiepio</b> "
+"konfigūracijoje - padarykite bandinį rezervaciją, kad nustebintumėte savo "
+"klientus. <b>%s</b>%s"
+
+#: templates/modify.php:15
+msgid "Find reservation"
+msgstr "Rasti rezervaciją"
+
+#: templates/frontend.php:248
+msgid "First Name"
+msgstr "Vardas"
+
+#: redi-restaurant-reservation.php:1237
+msgid "First Name can't be empty"
+msgstr "Vardas negali būti tuščias"
+
+#: templates/admin.php:110
+msgid "Free package settings"
+msgstr "Nemokamo paketo nustatymai"
+
+#: templates/admin.php:707 templates/admin.php:721
+msgid "From Custom SMTP"
+msgstr "Iš pasirinkto SMTP"
+
+#: templates/admin.php:705 templates/admin.php:724
+msgid "From ReservationDiary.eu"
+msgstr "Iš ReservationDiary.eu"
+
+#: templates/admin.php:709 templates/admin.php:718
+msgid "From WordPress email account"
+msgstr "Iš WordPress el. pašto paskyros"
+
+#: templates/admin.php:755
+msgid "Frontend settings"
+msgstr "Frontendo nustatymai"
+
+#: templates/admin_ajaxed.php:493
+msgid "GDPR"
+msgstr "BDAR"
+
+#: templates/confirm.php:34 templates/frontend.php:74
+msgid "Guests"
+msgstr "Svečiai"
+
+#: templates/admin.php:770
+msgid "Hide previous steps (only for timeshiftmode byshifts)"
+msgstr ""
+"Paslėpti ankstesnius veiksmus (tik laiko planavimo modelis pagal pamainas)"
+
+#: templates/admin.php:761
+msgid "Hide steps"
+msgstr "Paslėpti žingsnius"
+
+#: templates/admin_ajaxed.php:344 templates/admin_ajaxed.php:367
+msgid "Hours"
+msgstr "Valandos"
+
+#: templates/admin.php:335
+msgid "HTML dropdown"
+msgstr "HTML išskleidžiamoji eilutė"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://reservationdiary.eu"
+msgstr "http://reservationdiary.eu"
+
+#: templates/admin.php:286
+msgid "Hyphen"
+msgstr "Brūkšnys"
+
+#: templates/admin.php:65
+msgid "I agree to the privacy policy"
+msgstr "Aš sutinku su privatumo politika"
+
+#: templates/admin.php:692
+msgid ""
+"If checkbox is checked then reservations will not be automatically confirmed."
+" You will receive email with reservation request and each reservation needs "
+"to be confirmed or rejected manually."
+msgstr ""
+"Jei žymimasis langelis pažymėtas, rezervacijos nebus automatiškai "
+"patvirtinamos. Gausite el. laišką su užsakymo užklausa ir kiekvieną užsakymą "
+"reikės patvirtinti arba atmesti rankiniu būdu."
+
+#: templates/admin.php:512
+msgid ""
+"If checkbox is checked then seats left will be shown under selected time."
+msgstr ""
+"Jei žymimasis langelis pažymėtas, likusios vietos bus rodomos pagal "
+"pasirinktą laiką."
+
+#: templates/admin.php:787
+msgid ""
+"If checkbox is checked, a logo of <b>\"Powered by ReservationDiary.eu\"</b> "
+"is displayed. Thank you for supporting us."
+msgstr ""
+"Jei žymimasis langelis pažymėtas, rodomas logotipas <b>\"Powered by "
+"ReservationDiary.eu\"</b>. Dėkojame, kad mus remiate."
+
+#: templates/admin.php:396
+msgid ""
+"If this field is filled, the drop down menu of persons would show \"Large "
+"Groups\" and upon selection, the specified message would appear."
+msgstr ""
+"Užpildžius šį lauką, išskleidžiamajame asmenų meniu būtų rodoma \"Didelės "
+"grupės\" ir pasirinkus būtų rodomas nurodytas pranešimas."
+
+#: templates/basicpackage.php:54
+msgid ""
+"If you are building a catalogue of restaurants and looking for the perfect "
+"reservation plugin for it, we can provide it to you."
+msgstr ""
+"Jei kuriate restoranų katalogą ir ieškote jam tinkamo rezervavimo įskiepio, "
+"mes galime jums jį pasiūlyti."
+
+#: templates/admin_ajaxed.php:282
+msgid ""
+"If you close next day at night then set closing time on a same day. For "
+"example 18:00 - 3:00"
+msgstr ""
+"Jei uždarysite kitą dieną vakare, nustatykite uždarymo laiką tą pačią dieną. "
+"Pavyzdžiui, 18:00 - 3:00 val."
+
+#: templates/admin_welcome_no_key.php:21
+msgid "If you have already an API key, you can skip this step"
+msgstr "Jei jau turite API raktą, šį veiksmą galite praleisti"
+
+#: templates/admin.php:747
+msgid ""
+"If you want to customize confirmation page or have a separated page for "
+"marketing purposes, then select custom reservation confirmation page. If not "
+"specified, then built in confirmation page will be used."
+msgstr ""
+"Jei norite individualizuoti patvirtinimo puslapį arba turėti atskirą puslapį "
+"rinkodaros tikslais, pasirinkite pasirinktinį užsakymo patvirtinimo puslapį. "
+"Jei nenurodyta, bus naudojamas integruotas patvirtinimo puslapis."
+
+#: templates/basicpackage.php:59
+msgid ""
+"If you would like to add some new functionality or have any other queries, "
+"please contact us by email: "
+msgstr ""
+"Jei norite pridėti naujų funkcijų arba turite kitų klausimų, susisiekite su "
+"mumis el. paštu: "
+
+#: templates/basicpackage.php:64
+msgid ""
+"Improve your restaurant’s turnaround time by allowing the clients to call a "
+"waiter using their smart phones. Create a mobile web page with our QR Code "
+"Waiter Calling System plugin."
+msgstr ""
+"Pagerinkite savo restorano apyvartos laiką leisdami klientams išsikviesti "
+"padavėją išmaniuoju telefonu. Sukurkite mobilųjį tinklalapį naudodami mūsų "
+"QR kodo padavėjo iškvietimo sistemos įskiepį."
+
+#: templates/frontend.php:186 templates/frontend.php:337
+msgid ""
+"In case you would like to be notified when someone cancels reservation for "
+"this day, please fill <a class=\"link-waitlist-form\">this form</a>."
+msgstr ""
+"Jei norite gauti pranešimą, kai kas nors atšaukia šios dienos rezervaciją, "
+"užpildykite <a class=\"link-waitlist-form\">šią formą</a>."
+
+#: templates/admin.php:748
+msgid ""
+"In order to display reservation id on that page, install plugin GET Params "
+"and add following short code: [display-get-param name=\"reservation_id\"]"
+msgstr ""
+"Norėdami tame puslapyje rodyti rezervacijos ID, įdiekite įskiepį \"GET "
+"Params\" ir pridėkite šį trumpąjį kodą: [display-get-param "
+"name=\"reservation_id\"]"
+
+#: templates/admin.php:475
+msgid ""
+"In this mode, the system automatically displays all the available times for "
+"the date selected without any manual time input."
+msgstr ""
+"Šiuo režimu sistema automatiškai rodo visus galimus pasirinktos datos laikus "
+"be jokio rankinio laiko įvedimo."
+
+#: templates/admin.php:472
+msgid ""
+"In this mode, the user selects the desired time and the system verifies its "
+"availability to present five different alternative times to the customer."
+msgstr ""
+"Šiuo režimu naudotojas pasirenka pageidaujamą laiką, o sistema patikrina jo "
+"prieinamumą ir pateikia klientui penkis skirtingus alternatyvius laikus."
+
+#: templates/admin_ajaxed.php:425
+msgid "Is printed?"
+msgstr "Ar yra atspausdinta?"
+
+#: templates/admin_ajaxed.php:420
+msgid "Is required?"
+msgstr "Ar būtina?"
+
+#: templates/admin.php:332
+msgid "jQuery plugin"
+msgstr "jQuery įskiepis"
+
+#: templates/admin_ajaxed.php:187
+msgid "Language"
+msgstr "Kalba"
+
+#: templates/admin_ajaxed.php:215
+msgid ""
+"Language for emails of clients depend on the user interface language "
+"selected."
+msgstr ""
+"Klientams siunčiamų el. laiškų kalba priklauso nuo pasirinktos naudotojo "
+"sąsajos kalbos."
+
+#: templates/admin_ajaxed.php:214
+msgid ""
+"Language for internal emails communication. It is specially used for admin "
+"emails. "
+msgstr ""
+"Kalba, skirta vidiniam bendravimui elektroniniais laiškais. Ji specialiai "
+"naudojama administratoriaus el. laiškams. "
+
+#: templates/frontend.php:258
+msgid "Last Name"
+msgstr "Pavardė"
+
+#: redi-restaurant-reservation.php:1238
+msgid "Last Name can't be empty"
+msgstr "Pavardė negali būti tuščia"
+
+#: templates/admin_ajaxed.php:336
+msgid "Late Bookings"
+msgstr "Vėlyvos rezervacijos"
+
+#: templates/admin_welcome.php:21
+msgid "Link to demo: "
+msgstr "Nuoroda į demonstracinę versiją: "
+
+#: templates/admin.php:795
+msgid "Localization"
+msgstr "Vietos nustatymas"
+
+#: templates/frontend.php:29
+msgid "Login with your social media account"
+msgstr "Prisijunkite prie savo socialinės medijos paskyros"
+
+#: templates/frontend.php:298
+msgid "Make a reservation"
+msgstr "Rezervuokite"
+
+#: templates/admin.php:683
+msgid "Manual reservation"
+msgstr "Rankinė rezervacija"
+
+#: templates/admin.php:365
+msgid "Max persons per reservation"
+msgstr "Maksimalus asmenų skaičius vienai rezervacijai"
+
+#: templates/admin_ajaxed.php:296
+msgid "Maximum number of guests"
+msgstr "Maksimalus svečių skaičius "
+
+#: templates/admin.php:379
+msgid ""
+"Maximum number of persons allowed for each reservation. Drop down list of "
+"persons ends with this number."
+msgstr ""
+"Didžiausias leistinas asmenų skaičius kiekvienoje rezervacijoje. Šiuo "
+"skaičiumi baigiasi išskleidžiamasis asmenų sąrašas."
+
+#: templates/admin_ajaxed.php:374
+msgid "Maximum time before the reservation can be accepted."
+msgstr "Maksimalus laikas, per kurį gali būti priimta rezervacija."
+
+#: templates/admin.php:387
+msgid "Message for large groups"
+msgstr "Žinutė didelėms grupėms"
+
+#: templates/admin.php:345
+msgid "Min persons per reservation"
+msgstr "Minimalus asmenų skaičius per rezervaciją"
+
+#: redi-restaurant-reservation.php:549
+msgid "Min Persons should be lower than Max Persons"
+msgstr "Min žmonių skaičius turi būti mažesnis nei Maks žmonių skaičius"
+
+#: templates/admin.php:359
+msgid ""
+"Minimum number of persons allowed for each reservation. Drop down list of "
+"persons starts from this number."
+msgstr ""
+"Mažiausias leistinas asmenų skaičius kiekvienoje rezervacijoje. Nuo šio "
+"skaičiaus prasideda išskleidžiamasis asmenų sąrašas."
+
+#: templates/admin_ajaxed.php:343
+msgid "Minutes"
+msgstr "Minutės"
+
+#: templates/admin.php:469
+msgid ""
+"Mode how available working hours presented to user so that they can choose "
+"time slots most convenient to them."
+msgstr ""
+"Režimas, kai naudotojui pateikiamos galimos darbo valandos, kad jis galėtų "
+"pasirinkti jam patogiausius laiko intervalus."
+
+#: templates/frontend.php:14 templates/modify.php:2
+msgid "Modify reservation"
+msgstr "Keisti rezervaciją"
+
+#: templates/admin_ajaxed.php:369
+msgid "Months"
+msgstr "Mėnesiai"
+
+# if there are from 2 to 9 guests and all double digit numbers except numbers below, then should be written SVEČIAI
+# if from 10 to 20 guests - then SVEČIŲ
+# 21, 31, 41... etc. - SVEČIAS
+#: templates/frontend.php:86
+#, php-format
+msgid "More than %s Guests"
+msgstr "Daugiau nei %s svečiai"
+
+# if there are from 2 to 9 guests and all double digit numbers except numbers below, then should be written SVEČIAI
+# if from 10 to 20 guests - then SVEČIŲ
+# 21, 31, 41... etc. - SVEČIAS
+#: templates/frontend.php:6
+msgid "More than [max] people"
+msgstr "Daugiau kaip [max] svečių"
+
+#: templates/admin_ajaxed.php:286
+msgid ""
+"Multiple open and close times are available in Basic package. If times are "
+"configured in Basic package, then this table is ignored."
+msgstr ""
+"Baziniame pakete galima pasirinkti kelis atidarymo ir uždarymo laikus. Jei "
+"laikai jau sukonfigūruoti Baziniame pakete, ši lentelė ignoruojama."
+
+#: templates/admin.php:119 templates/cancel.php:12 templates/frontend.php:236
+#: templates/frontend.php:250 templates/frontend.php:416
+#: templates/modify.php:11 templates/modify.php:43
+msgid "Name"
+msgstr "Vardas"
+
+#: redi-restaurant-reservation.php:1236
+msgid "Name can't be empty"
+msgstr "Vardas negali būti tuščias"
+
+#: redi-restaurant-reservation.php:1239
+msgid "Name or Phone or Email can't be empty"
+msgstr "Vardas arba telefono numeris arba el. paštas negali būti tuščias"
+
+#: templates/admin.php:121
+msgid "News"
+msgstr "Naujienos"
+
+#: templates/admin.php:58 templates/admin_ajaxed.php:489
+msgid "Newsletter"
+msgstr "Naujienlaiškiai"
+
+#: redi-restaurant-reservation.php:1244
+msgid "Next"
+msgstr "Toliau"
+
+#: templates/admin_welcome.php:16
+msgid ""
+"Next step is to configure the plugin, please watch following videos and "
+"click on Next to open Settings page"
+msgstr ""
+"Kitas žingsnis - konfigūruoti įskiepį, žiūrėkite šiuos vaizdo įrašus ir "
+"spustelėkite Toliau, kad atidarytumėte nustatymų puslapį"
+
+#: templates/frontend.php:77
+msgid "No. of Guests"
+msgstr "Svečių skaičius"
+
+#: redi-restaurant-reservation.php:1694
+msgid "Nonce check failed."
+msgstr "Nonce tikrinimas nepavyko."
+
+#: templates/admin.php:471
+msgid "Normal"
+msgstr "Įprastas"
+
+#: redi-restaurant-reservation.php:436
+msgid "Not a valid API key provided."
+msgstr "Nepateiktas galiojantis API raktas."
+
+#: templates/admin_ajaxed.php:397
+msgid ""
+"NOTE: Complex custom fields like Options and Dropdown can be configured in "
+"Basic package settings."
+msgstr ""
+"PASTABA: Sudėtingi pasirinktiniai laukai, pavyzdžiui, parinktys ir "
+"išskleidžiamieji laukai, gali būti konfigūruojami Bazinio paketo "
+"nustatymuose."
+
+#: templates/admin_ajaxed.php:352
+msgid ""
+"NOTE: If you define Open Time in basic package, then this setting will be "
+"ignored. Use open times settings to define Late Bookings."
+msgstr ""
+"PASTABA: Jei Baziniame pakete nustatėte atvirą laiką, šis nustatymas bus "
+"ignoruojamas. Naudokite atviro laiko nustatymus vėlyviems užsakymams "
+"apibrėžti."
+
+#: templates/admin_ajaxed.php:395
+msgid ""
+"NOTE: Name, Email, Phone and Comments are required fields of reservation "
+"form and do not need to be defined here as custom fields."
+msgstr ""
+"PASTABA: Vardas, el. paštas, telefonas ir komentarai yra privalomi "
+"rezervavimo formos laukai ir jų nereikia apibrėžti kaip pasirinktinių laukų."
+
+#: templates/admin_ajaxed.php:529
+msgid "Note: To send SMS messages an extra addon needs to be purchased."
+msgstr "Pastaba: norint siųsti SMS žinutes, reikia įsigyti papildomą priedą."
+
+#: templates/admin.php:653
+msgid "Obtain your captcha key from Google."
+msgstr "Gaukite captcha raktą iš Google."
+
+#: redi-restaurant-reservation.php:1180
+msgid ""
+"Online reservation service is not available at this time. Try again later or"
+msgstr ""
+"Internetinė rezervacijų paslauga šiuo metu nepasiekiamas. Bandykite vėliau "
+"arba"
+
+#: redi.php:286
+#, php-format
+msgid ""
+"Online reservation service is not available at this time. Try again later or "
+"%s"
+msgstr ""
+"Rezervavimo internetu paslauga šiuo metu neteikiama. Bandykite vėliau arba %s"
+
+#: templates/admin_ajaxed.php:246
+msgid "Open"
+msgstr "Atverti"
+
+#: templates/basicpackage.php:25
+msgid ""
+"Open times. This option will enable you to choose between various working "
+"hours whichever is most convenient to you."
+msgstr ""
+"Darbo laikas. Pasirinkę šią parinktį galėsite pasirinkti įvairias darbo "
+"valandas, kurios jums patogiausios."
+
+#: templates/basicpackage.php:22
+msgid "Open upcoming reservations"
+msgstr "Atviros būsimos rezervacijos"
+
+#: templates/admin_ajaxed.php:497
+msgid "Option"
+msgstr "Parinktis"
+
+#: templates/admin.php:547
+msgid "Override fully booked message text"
+msgstr "Parašykite žinutę, kuomet visi staliukai užimti"
+
+#: templates/admin_welcome_no_page.php:10
+msgid "Page name"
+msgstr "puslapio pavadinimas"
+
+#: redi-restaurant-reservation.php:2195
+msgid "Page name is required"
+msgstr "Puslapio pavadinimas yra privalomas"
+
+#: templates/frontend.php:407 templates/modify.php:32
+msgid "Persons"
+msgstr "Asmenys"
+
+#: templates/admin.php:136 templates/admin_ajaxed.php:223
+#: templates/cancel.php:9 templates/frontend.php:239 templates/frontend.php:264
+#: templates/frontend.php:426 templates/modify.php:8 templates/modify.php:47
+msgid "Phone"
+msgstr "Telefonas"
+
+#: redi-restaurant-reservation.php:1241
+msgid "Phone can't be empty"
+msgstr "Telefonas negali būti tuščias"
+
+#: redi-restaurant-reservation.php:1242
+msgid "Phone number is not valid"
+msgstr "Telefono numeris yra neteisingas"
+
+#: templates/admin_ajaxed.php:42 templates/frontend.php:51
+msgid "Place"
+msgstr "Vieta"
+
+#: templates/basicpackage.php:38
+msgid ""
+"Please allow 1 business day for us to confirm your payment and upgrade your "
+"account."
+msgstr ""
+"Pra6ome suteikti mums vieną darbo dieną tam, kad patvirtintume Jūsų mokėjimą "
+"ir atnaujintume Jūsų paskyrą."
+
+#: functions/notice.php:88
+msgid ""
+"Please create a reservation page and add this <b>[redirestaurant]</b> "
+"shortcode to that page."
+msgstr ""
+"Prašome sukurti rezervacijos puslapį ir į jį pridėti šį <b>[redirestaurant]"
+"</b> trumpinį."
+
+#: templates/admin_welcome_no_key.php:36
+msgid "Please provide your API Key in order to continue using plugin"
+msgstr "Norėdami toliau naudoti įskiepį, nurodykite savo API raktą"
+
+#: templates/admin_welcome_no_key.php:12
+msgid "Please provide your email address to generate API Key"
+msgstr "Nurodykite savo el. pašto adresą, kad būtų sugeneruotas API raktas"
+
+#: templates/admin.php:675
+msgid ""
+"Please verify you current time. This is important as this time is taken and "
+"used in reservation logic. In case time is differnet than your current time, "
+"please change time zone in Settings -> General -> Time Zone"
+msgstr ""
+"Patikrinkite esamą laiką. Tai svarbu, nes šis laikas yra imamas ir "
+"naudojamas rezervavimo logikoje. Jei laikas skiriasi nuo jūsų dabartinio "
+"laiko, pakeiskite laiko juostą Nuostatos -> Pagrindinės -> Laiko juosta."
+
+#: redi-restaurant-reservation.php:1190
+msgid ""
+"Plugin failed to properly load javascript file, please check that jQuery is "
+"loaded and no javascript errors present."
+msgstr ""
+"Įskiepis nepavyko tinkamai įkelti JavaScript failo. Patikrinkite, ar įkelta "
+"jQuery ir nėra jokių JavaScript klaidų."
+
+#: templates/admin.php:117
+msgid "Plugin Info"
+msgstr "Įskiepio informacija"
+
+#: templates/frontend.php:473
+msgid "Powered by"
+msgstr "Sukurta"
+
+#: templates/frontend.php:412
+msgid "Preferred time"
+msgstr "Pageidautinas laikas"
+
+#: templates/frontend.php:222 templates/frontend.php:296
+msgid "Previous"
+msgstr "Ankstesnis"
+
+#: templates/admin.php:60
+msgid "Privacy policy"
+msgstr "Privatumo politika"
+
+#: templates/frontend.php:228
+msgid "Provide reservation details"
+msgstr "Pateikite rezervacijos informaciją"
+
+#: redi-restaurant-reservation.php:1247
+msgid "Provided time is not in valid format."
+msgstr "Pateiktas laikas neteisingu formatu."
+
+#: templates/admin.php:826 templates/cancel.php:16
+msgid "Reason"
+msgstr "Priežastis"
+
+#: redi-restaurant-reservation.php:1243
+msgid "Reason can't be empty"
+msgstr "Priežastis negali būti tuščia"
+
+#. Description of the plugin
+msgid "ReDi Reservation plugin for Restaurants"
+msgstr "ReDi rezervacijos įskiepis restoranams"
+
+#: redi-restaurant-reservation.php:940 redi-restaurant-reservation.php:941
+#: redi-restaurant-reservation.php:996 redi-restaurant-reservation.php:997
+#: redi-restaurant-reservation.php:1005 redi-restaurant-reservation.php:1006
+msgid "ReDi Reservations"
+msgstr "ReDi rezervacijos"
+
+#. Name of the plugin
+msgid "ReDi Restaurant Reservation"
+msgstr "ReDi restoranų rezervavimas"
+
+#: templates/admin_welcome.php:13
+msgid "ReDi restaurant reservation plugin is ready to use"
+msgstr "ReDi restoranų rezervavimo įskiepis yra paruoštas naudoti"
+
+#: templates/frontend.php:455
+msgid "Register to Wait List"
+msgstr "Registruokitės į laukiančiųjų sąrašą"
+
+#: templates/basicpackage.php:51
+msgid "Remind your customer about upcoming reservation via Email or by SMS"
+msgstr "Priminkite klientui apie artėjantį užsakymą el. paštu arba SMS žinute"
+
+#: templates/admin.php:57 templates/admin_ajaxed.php:487
+msgid "Reminder"
+msgstr "Priminimas"
+
+#: templates/admin_ajaxed.php:430
+msgid "Required error message"
+msgstr "Būtinas klaidos pranešimas"
+
+#. Author of the plugin
+msgid "Reservation Diary"
+msgstr "Rezervacijos dienoraštis"
+
+#: templates/admin_ajaxed.php:317
+msgid "Reservation duration"
+msgstr "Rezervacijos trukmė"
+
+#: redi.php:285
+msgid "Reservation form is not working"
+msgstr "Rezervacijos forma neveikia"
+
+#: templates/admin.php:581
+msgid "Reservation Form settings"
+msgstr "Rezervacijos formos nuostatos"
+
+#: redi-restaurant-reservation.php:505 templates/cancel.php:27
+#: templates/confirm.php:55
+msgid "Reservation has been successfully canceled."
+msgstr "Rezervacija buvo sėkmingai atšaukta"
+
+#: templates/modify.php:72
+msgid "Reservation has been successfully updated."
+msgstr "Rezervacija buvo sėkmingai atnaujinta."
+
+#: functions/feedback.php:51
+msgid "Reservation id is empty."
+msgstr "Rezervacijos ID tuščias."
+
+#: templates/frontend.php:181 templates/frontend.php:343
+msgid ""
+"Reservation is not available on selected day. Please select another day."
+msgstr "Pasirinktą dieną rezervacija negalima. Prašome pasirinkti kitą dieną."
+
+#: redi-restaurant-reservation.php:1202
+msgid "Reservation is not found."
+msgstr "Rezervacija nerasta."
+
+#: templates/admin.php:822 templates/cancel.php:7 templates/confirm.php:12
+#: templates/modify.php:6
+msgid "Reservation number"
+msgstr "Rezervacijos numeris"
+
+#: redi-restaurant-reservation.php:1235
+msgid "Reservation number can't be empty"
+msgstr "Rezervacijos numeris negali būti tuščias"
+
+#: redi-restaurant-reservation.php:510
+msgid "Reservation number is required"
+msgstr "Rezervacijos numeris yra privalomas"
+
+#: templates/admin_ajaxed.php:289
+msgid "Reservation restrictions"
+msgstr "Rezervacijos apribojimai"
+
+#: templates/admin.php:660
+msgid "Reservation settings"
+msgstr "Rezervacijos nuostatos"
+
+#: redi-restaurant-reservation.php:1984
+msgid "Reservation that is canceled can not be modified."
+msgstr "Atšaukta rezervacija negali būti modifikuota."
+
+#: redi-restaurant-reservation.php:555
+msgid "Reservation time should be greater than 0"
+msgstr "Rezervacijos laikas turi būti didesnis nei 0"
+
+#: redi-restaurant-reservation.php:980
+msgid "Reservations"
+msgstr "Rezervacijos"
+
+#: redi-restaurant-reservation.php:981
+msgid "Reservations "
+msgstr ""
+
+#: templates/admin_ajaxed.php:76
+msgid "Restaurant name"
+msgstr "Restorano vardas"
+
+#: templates/admin_ajaxed.php:34
+msgid "Restaurant settings"
+msgstr "Restorano nuostatos"
+
+#: templates/admin.php:810
+msgid "Save Changes"
+msgstr "Išsaugoti pakeitimus"
+
+#: templates/frontend.php:204
+msgid "Select available time"
+msgstr "Pasirinkite laisvą laiką"
+
+#: templates/admin_ajaxed.php:96
+msgid "Select Country"
+msgstr "Pasirinkite šalį"
+
+#: templates/frontend.php:64
+msgid "Select guests, date and time"
+msgstr "Pasirinkite svečių skaičių, datą ir laiką"
+
+#: templates/frontend.php:48
+msgid "Select place, guests, date and time"
+msgstr "Pasirinkite vietą, svečių skaičių, datą ir laiką"
+
+#: redi-restaurant-reservation.php:1504
+msgid "Selected date or time is not valid."
+msgstr "Pasirinktas data ar laikas yra neteisingas."
+
+#: templates/admin.php:270
+msgid ""
+"Selecting this option, the calendar is set to popup when the user clicks the "
+"calendar control."
+msgstr ""
+"Pasirinkus šią parinktį, kalendorius nustatomas taip, kad vartotojui "
+"spustelėjus kalendoriaus valdiklį iššoktų."
+
+#: templates/basicpackage.php:31
+msgid "Send client reservation confirmation emails from WordPress account."
+msgstr ""
+"Siųskite klientų užsakymo patvirtinimo el. laiškus iš \"WordPress\" paskyros."
+
+#: templates/admin.php:699
+msgid "Send confirmation email to client"
+msgstr "Siųsti patvirtinimo el. laišką klientui"
+
+#: templates/admin.php:63
+msgid "Send me newsletter and promotions"
+msgstr "Norėčiau gauti naujienlaiškius ir akcijinius pasiūlymus"
+
+#: templates/admin.php:62
+msgid "Send me reservation reminder"
+msgstr "Atsiųskite man rezervacijos priminimą"
+
+#: templates/admin_ajaxed.php:284
+msgid "Set Open and Close fields to blank if restaurant is closed."
+msgstr ""
+"Jei restoranas uždarytas, laukus \"Atidaryti\" ir \"Uždaryti\" palikite "
+"tuščius."
+
+#: redi-restaurant-reservation.php:958 redi-restaurant-reservation.php:959
+msgid "Settings"
+msgstr "Nustatymai"
+
+#: redi-restaurant-reservation.php:966 redi-restaurant-reservation.php:967
+msgid "Settings $"
+msgstr "Nustatymai $"
+
+#: templates/basicpackage.php:23
+msgid "Setup maximum available seats for online reservation by week day"
+msgstr ""
+"Didžiausio galimo vietų skaičiaus, kurį galima rezervuoti internetu, "
+"nustatymas pagal savaitės dienas"
+
+#: functions/notice.php:37 functions/notice.php:56
+msgid "Setup wizard page"
+msgstr "Diegimo vedlio puslapis"
+
+#: templates/admin.php:485
+msgid "Show end reservation time"
+msgstr "Rodyti rezervacijos pabaigos laiką"
+
+#: templates/admin.php:269
+msgid "Shown on click"
+msgstr "Rodyti paspaudus"
+
+#: templates/admin.php:135
+msgid "Skype"
+msgstr "Skype"
+
+#: templates/admin.php:296
+msgid "Slash"
+msgstr "Slash"
+
+#: templates/admin.php:59
+msgid "SMS"
+msgstr "SMS"
+
+#: templates/admin_ajaxed.php:350
+msgid ""
+"Specify how late customers can make their booking in hours. For example, the "
+"current time is 10:00 and this setting is set to 3 hours then the first time,"
+" when the reservation will be accepted is 13:00."
+msgstr ""
+"Nurodykite, kada vėliausiai klientai gali atlikti užsakymą valandomis. "
+"Pavyzdžiui, dabartinis laikas yra 10:00, o šis nustatymas yra 3 valandos, "
+"tada pirmasis laikas, kada bus priimta rezervacija, yra 13:00."
+
+#: templates/admin_ajaxed.php:280
+msgid "Specify time in 24h format (00:00 - 23:59)."
+msgstr "Nurodykite laiką 24 val. formatu (00:00 - 23:59)."
+
+#: templates/frontend.php:48 templates/frontend.php:64
+#: templates/frontend.php:204 templates/frontend.php:228
+msgid "Step"
+msgstr "Žingsnis"
+
+#: templates/admin.php:129
+msgid "Support"
+msgstr "Parama"
+
+# I'm not sure, what are you talking about here
+#: templates/basicpackage.php:27
+msgid ""
+"Support for multiple places. Number of places depends on number of "
+"subscriptions."
+msgstr ""
+"Multivietų palaikymas. Vietų skaičius priklauso nuo prenumeratorių skaičiaus."
+
+#: templates/admin.php:778
+msgid "Support us"
+msgstr "Paremkite mus"
+
+#: redi-restaurant-reservation.php:973 redi-restaurant-reservation.php:974
+msgid "Test reservation"
+msgstr "Testinė rezervacija"
+
+#: templates/admin_ajaxed.php:483
+msgid "Text field"
+msgstr "Laukelio tekstas"
+
+#: templates/admin_ajaxed.php:410
+msgid "Text on form"
+msgstr "Formos tekstas"
+
+#: templates/admin.php:556
+msgid ""
+"Text that will be displayed when there are no available time for selected "
+"day/time."
+msgstr ""
+"Tekstas, kuris bus rodomas, kai pasirinktą dieną/laiką nėra laisvo laiko."
+
+#: functions/feedback.php:47
+msgid "Thank you for your feedback."
+msgstr "Dėkojame už atsiliepimą."
+
+#: templates/frontend.php:305
+msgid "Thank you for your reservation."
+msgstr "Dėkojame už Jūsų rezervaciją. "
+
+#: templates/frontend.php:312
+msgid ""
+"A confirmation email has been sent to you, "
+"should you not receive it, please rest assured that your booking has been "
+"received and is confirmed. If you wish you may contact us by phone to "
+"confirm."
+msgstr ""
+"Dėkojame už rezervaciją. Jums buvo išsiųstas patvirtinimo el. laiškas, jei "
+"jo negautumėte, galite būti tikri, kad jūsų užsakymas buvo gautas ir "
+"patvirtintas. Jei pageidaujate, galite susisiekti su mumis telefonu ir "
+"patvirtinti užsakymą."
+
+#: templates/frontend.php:310
+msgid ""
+"Thank you for your reservation. We have received your request and will "
+"process it shortly. Please note that your reservation is not confirmed until "
+"you receive written confirmation from us."
+msgstr ""
+"Dėkojame už rezervaciją. Gavome jūsų užklausą ir netrukus ją įvykdysime. "
+"Atkreipkite dėmesį, kad užsakymas nėra patvirtintas, kol iš mūsų negausite "
+"raštiško patvirtinimo."
+
+#: templates/admin.php:725
+msgid ""
+"The confirmation email will be sent out from info@reservationdiary.eu. When "
+"the client replies to confirmation email, you will receive it."
+msgstr ""
+"Patvirtinimo el. laiškas bus išsiųstas iš info@reservationdiary.eu. Kai "
+"klientas atsakys į patvirtinimo el. laišką, jį gausite Jūs."
+
+#: templates/admin.php:719
+msgid ""
+"The confirmation email will be sent out from your email set in WordPress."
+msgstr ""
+"Patvirtinimo el. laiškas bus išsiųstas iš \"WordPress\" nustatyto el. pašto."
+
+#: templates/admin_ajaxed.php:231
+msgid ""
+"The contact number of restaurant. It could have the format [area code] "
+"[phone number]"
+msgstr ""
+"Restorano kontaktinis numeris. Jis gali būti tokio formato: [vietovės kodas] "
+"[telefono numeris]"
+
+#: templates/admin_ajaxed.php:104
+msgid "The country of restaurant can be mentioned here."
+msgstr "Čia galima paminėti restorano šalį."
+
+#: templates/admin_ajaxed.php:179
+msgid ""
+"The email addresses of recipients who should be sent the copies of "
+"reservation emails. You can separate multiple recipients using commas."
+msgstr ""
+"Gavėjų, kuriems turėtų būti siunčiamos rezervavimo el. laiškų kopijos, el. "
+"pašto adresai. Keletą gavėjų galite atskirti kableliais."
+
+#: templates/admin.php:224
+msgid ""
+"The enabled feedback collection option allows users of the reservation form "
+"to provide valuable input for improving the plugin. By keeping this option "
+"enabled, you can continuously enhance the plugin based on user feedback, "
+"ensuring an exceptional reservation experience for restaurant visitors."
+msgstr ""
+"Įjungta atsiliepimų rinkimo parinktis leidžia rezervavimo formos naudotojams "
+"pateikti vertingos informacijos, reikalingos įskiepiui tobulinti. Jei ši "
+"parinktis bus įjungta, galėsite nuolat tobulinti įskiepį, remdamiesi "
+"naudotojų atsiliepimais, ir užtikrinti išskirtinę rezervavimo patirtį "
+"restoranų lankytojams."
+
+#: templates/admin_ajaxed.php:84
+msgid "The name of the restaurant is to be specified here."
+msgstr "Čia nurodomas restorano pavadinimas."
+
+#: templates/admin_ajaxed.php:119
+msgid "The restaurant city is to be specified in this field."
+msgstr "Šiame laukelyje reikia nurodyti restorano miestą."
+
+#: templates/admin.php:305
+msgid ""
+"The way date format is displayed on the date control. You can select from a "
+"drop down list of different date formats."
+msgstr ""
+"Datos formato rodymo būdas datos valdiklyje. Galite pasirinkti iš sąrašo "
+"įvairius datos formatus."
+
+#: templates/admin.php:716
+msgid ""
+"The way you want confirmation email to be delivered to the client. It can be "
+"\"From WordPress email account\", \"From reservationdiary.eu\", \"Custom "
+"SMTP\" or \"Disable confirmation email\"."
+msgstr ""
+"Būdas, kuriuo norite, kad patvirtinimo el. laiškas būtų pristatytas klientui."
+" Tai gali būti \"Iš WordPress el. pašto paskyros\", \"Iš reservationdiary."
+"eu\", \"Pasirinktinis SMTP\" arba \"Išjungti patvirtinimo el. laišką\"."
+
+#: templates/admin_ajaxed.php:149
+msgid "The website address of the restaurant."
+msgstr "Restorano interneto svetainės adresas."
+
+#: templates/frontend.php:322 templates/frontend.php:331
+msgid "There are no more reservation can be made for this day."
+msgstr "Šiai dienai rezervuoti vietų nebegalima."
+
+#: redi-restaurant-reservation.php:1246
+msgid "There are no more reservations can be made for selected day."
+msgstr "Daugiau rezervacijų šiam dienos pasirinkimui negalima atlikti."
+
+#: templates/admin_ajaxed.php:66
+msgid ""
+"This <b>ID</b> associated with your place. The <b>ID</b> can be used as a "
+"short code for specifying the place of reservation in case of multiple "
+"restaurants. <br/>Example of shortcode:"
+msgstr ""
+"Šis <b>ID<b> susietas su Jūsų valdoma maitinimo vieta. Šį <b>ID<b> galite "
+"naudoti kaip trumpąjį kodą, maitinimo vietai nurodyti, kai yra valdomos "
+"kelios vietos. <br>Trumpojo kodo pavyzdys: "
+
+#: templates/admin_ajaxed.php:56
+msgid ""
+"This field lets you edit settings for multiple places. Multiple places are "
+"available for Basic package users only."
+msgstr ""
+"Šiame lauke galite redaguoti kelių vietų nustatymus. Kelias vietas galima "
+"nustatyti tik Bazinio paketo naudotojams."
+
+#: templates/admin.php:267
+msgid ""
+"This field lets you select the style in which the calendar control is "
+"displayed. It can be either \"Show on click\" or \"Always show”."
+msgstr ""
+"Šiame lauke galite pasirinkti kalendoriaus valdiklio rodymo stilių. Jis gali "
+"būti \"Rodyti paspaudus\" arba \"Rodyti visada\"."
+
+#: templates/admin.php:330
+msgid ""
+"This field lets you select the way time picker is displayed. You can choose "
+"from \"jQuery plugin\" and \"HTML dropdown\"."
+msgstr ""
+"Šiame lauke galite pasirinkti, kaip bus rodomas laikas rezervavimo sistemoje."
+" Galite rinktis iš \"jQuery plugin\" arba \"HTML dropdown\"."
+
+#: templates/admin.php:443
+msgid ""
+"This is how the available time will be shown. This setting is taken from "
+"generic WordPress settings. You can change it in Settings -> General -> Time "
+"Format"
+msgstr ""
+"Taip bus rodomas esamas laikas. Šis nustatymas paimtas iš bendrųjų "
+"\"WordPress\" nustatymų. Jį galite pakeisti Nuostatos-> Pagrindinės -> Laiko "
+"formatas"
+
+#: templates/admin_ajaxed.php:309
+msgid ""
+"This is the number of maximum persons in restaurant at any time. System will "
+"check automatically availability of free seats and will not allow to go "
+"beyond this number."
+msgstr ""
+"Tai yra maksimalus restorane bet kuriuo metu esančių žmonių skaičius. "
+"Sistema automatiškai patikrins, ar yra laisvų vietų, ir neleis viršyti šio "
+"skaičiaus."
+
+#: templates/basicpackage.php:15
+msgid ""
+"This is your registration key. Please use it when you send request for "
+"support."
+msgstr ""
+"Tai jūsų registracijos raktas. Prašome jį naudoti siunčiant pagalbos "
+"užklausas."
+
+#: templates/admin.php:273
+msgid "This option sets the calendar control to display all the time."
+msgstr ""
+"Šia parinktimi nustatoma, kad kalendoriaus valdiklis būtų rodomas visą laiką."
+
+#: redi-restaurant-reservation.php:1245
+msgid "This time is fully booked"
+msgstr "Šis laikas jau visiškai užimtas"
+
+#: templates/confirm.php:28 templates/frontend.php:117
+#: templates/frontend.php:210 templates/modify.php:29
+msgid "Time"
+msgstr "Laikas"
+
+#: templates/admin.php:434
+msgid "Time format"
+msgstr "Laiko formatas"
+
+#: templates/admin.php:333
+msgid ""
+"Time picker type if selected to be jQuery plugin, it is set to pop up with "
+"the hour and time."
+msgstr ""
+"Esant nustatytam jQuery įskiepiui, laiko pasirinkimo tipas rodomas kaip pop "
+"up'as."
+
+#: templates/admin.php:313
+msgid "TimePicker type"
+msgstr "Laiko pasirinkimo tipas"
+
+#: templates/admin.php:452
+msgid "TimeShift Mode"
+msgstr "Laiko pamainos režimas"
+
+#: redi-restaurant-reservation.php:1976
+msgid ""
+"Unable to find reservation with provided information. Please verify that "
+"provided reservation number and phone or name or email is correct."
+msgstr ""
+"Nepavyksta rasti rezervacijos su pateikta informacija. Patikrinkite, ar "
+"pateiktas rezervacijos numeris ir telefono numeris arba vardas arba el. "
+"paštas yra teisingas."
+
+#: templates/modify.php:23 templates/modify.php:65
+msgid "Update reservation"
+msgstr "Atnaujinti rezervaciją"
+
+# in lithuanian URL is nuoroda, but can be used URL :)
+#: templates/admin_ajaxed.php:141
+msgid "URL"
+msgstr ""
+"Nuoroda\n"
+"URL"
+
+#: templates/basicpackage.php:43
+msgid ""
+"Use your Facebook account for your business. Make clients from your Facebook "
+"fans."
+msgstr ""
+"Naudokite savo Facebook paskyrą verslui. Sukurkite klientus iš savo Facebook "
+"gerbėjų."
+
+#: templates/admin.php:127
+msgid "User guideline"
+msgstr "Naudotojo gairės"
+
+#: templates/admin.php:120
+msgid "Version"
+msgstr "Versija"
+
+#: templates/admin.php:125
+msgid "Video tutorials"
+msgstr "Vaizdo pamokos"
+
+#: templates/basicpackage.php:44
+msgid "View presentation."
+msgstr "Peržiūrėti pristatymą."
+
+#: templates/basicpackage.php:20
+msgid ""
+"View your upcoming reservations from your Mobile/Tablet PC and never miss "
+"your customer. This page should be open on a Tablet PC and so hostess can "
+"see all upcoming reservations for today. Page refreshes every 15 min and "
+"shows reservations that in past for 3 hours as well as upcoming reservations "
+"for next 24 hours. By clicking on reservation you will see reservation "
+"details. Demo version can be accessed for 30 days using this link: "
+msgstr ""
+"Stebėkite būsimus užsakymus iš savo mobiliojo / planšetinio kompiuterio ir "
+"niekada nepraraskite savo kliento. Šis puslapis turėtų būti atidarytas "
+"planšetiniame kompiuteryje, kad administratorius galėtų matyti visas būsimas "
+"šios dienos rezervacijas. Puslapis atsinaujina kas 15 min ir jame rodomi 3 "
+"valandų užsakymai, taip pat artimiausi čė val. užsakymai. Spustelėję ant "
+"rezervacijos, pamatysite išsamią informaciją apie ją. Demonstracinę versiją "
+"galima išbandyti 30 dienų spustelėjus šią nuorodą: "
+
+#: templates/confirm.php:3
+msgid "Visit confirmation"
+msgstr "Apsilankymo patvirtinimas"
+
+# not sure
+#: templates/admin.php:653
+msgid "Visit Google site"
+msgstr "Apsilankykite Google site"
+
+#: templates/confirm.php:50
+msgid "Visit has been successfully confirmed."
+msgstr "Apsilankymas sėkmingai patvirtintas."
+
+#: redi-restaurant-reservation.php:1962
+msgid "Visit not confimed by the guest."
+msgstr "Apsilankymas nebuvo patvirtintas svečio."
+
+#: templates/admin.php:564 templates/frontend.php:398
+msgid "Wait List"
+msgstr "Laukiančiųjų sąrašas"
+
+#: redi-restaurant-reservation.php:988 redi-restaurant-reservation.php:989
+msgid "Waiter Dashboard"
+msgstr "Padavėjo skydelis"
+
+#: templates/basicpackage.php:45
+msgid ""
+"We can offer you white labeled restaurant reservation application for "
+"Facebook Application, iPhone/iPad Application, Windows Phone Application or "
+"Android Application."
+msgstr ""
+"Galime Jums pasiūlyti baltai paženklintą restoranų rezervavimo programėlę, "
+"skirtą \"Facebook\", \"iPhone\" / \"iPad\", \"Windows Phone\" arba "
+"\"Android\" aplikacijoms."
+
+#: templates/confirm.php:4
+msgid ""
+"We would like to know if you will be visiting us today. Please confirm or "
+"cancel your reservation by clicking the appropriate button below. If the "
+"reservation is not confirmed, we reserve the right to cancel it from our "
+"side."
+msgstr ""
+"Norėtume sužinoti, ar šiandien aplankysite mus. Patvirtinkite arba atšaukite "
+"rezervaciją, paspausdami tinkamą mygtuką žemiau. Jei rezervacija nebus "
+"patvirtinta, turime teisę ją atšaukti iš savo pusės."
+
+#: redi-restaurant-reservation.php:950 redi-restaurant-reservation.php:951
+msgid "Welcome"
+msgstr "Sveiki"
+
+#: templates/frontend.php:23
+msgid "Welcome back"
+msgstr "Sveiki sugrįžę"
+
+#: templates/admin_welcome.php:10 templates/admin_welcome_no_key.php:2
+msgid "Welcome to the ReDi Restaurant Reservation plugin"
+msgstr "Sveiki atvykę į ReDi Restaurant Reservation įskiepį"
+
+#: templates/admin.php:137
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: templates/admin.php:620
+msgid ""
+"When enabled guests has to enter their phone number with country code. This "
+"is most useful when there is a good amount of foreing visitors. Also this "
+"option has to be enabled when SMS addon is in use, as SMS Providers requires "
+"full phone number."
+msgstr ""
+"Kai ši funkcija įjungta, svečiai turi įvesti savo telefono numerį su šalies "
+"kodu. Ši parinktis naudingiausia, kai yra daug lankytojų iš užsienio. Ši "
+"parinktis taip pat turi būti įjungta, kai naudojamas SMS priedas, nes SMS "
+"teikėjams reikia viso telefono numerio."
+
+#: templates/admin.php:496
+msgid ""
+"When this enabled, start and end of reservation time will be displayed. This "
+"is useful when you want to inform the guest about fixed reservation time "
+"frame."
+msgstr ""
+"Kai ši funkcija įjungta, bus rodomas rezervavimo pradžios ir pabaigos laikas."
+" Tai naudinga, kai norite informuoti svečią apie fiksuotą rezervacijos laiką."
+
+#: templates/admin.php:573
+msgid ""
+"When this option is enabled, guest will have an opportunity to fill out Wait "
+"List form in case it's fully booked. Then if someone cancels reservation, "
+"this guest can be contacted and offered a reservation."
+msgstr ""
+"Kai ši parinktis įjungta, svečias galės užpildyti laukiančiųjų sąrašo formą, "
+"jei visos vietos pageidaujamai datai bus užimtos. Jei kas nors atšauks "
+"rezervaciją, su šiuo svečiu bus galima susisiekti ir pasiūlyti rezervuoti "
+"laisvą vietą."
+
+#: templates/admin.php:601
+msgid ""
+"When this option is enabled, then guest has to provide first and last name "
+"separately when filling reservation form. Otherwise Name is collected in a "
+"single field."
+msgstr ""
+"Jei ši parinktis įjungta, pildydamas užsakymo formą svečias turi atskirai "
+"nurodyti vardą ir pavardę. Priešingu atveju vardas ir pavardė saugomi "
+"viename lauke."
+
+#: templates/admin.php:336
+msgid ""
+"With this option selected, the Time Picker is shown to be simple dropdown "
+"for selecting the hour and time."
+msgstr ""
+"Pasirinkus šią parinktį, rodomas paprastas išskleidžiamojo sąrašo langelis, "
+"kuriame galima pasirinkti valandą ir laiką."
+
+#: templates/admin.php:728
+msgid "With this option, confirmation email is not sent to the client."
+msgstr ""
+"Pasirinkus šią parinktį, patvirtinimo el. laiškas klientui nesiunčiamas.\n"
+
+#: templates/admin_ajaxed.php:237
+msgid "Working time"
+msgstr "Darbo laikas"
+
+#: templates/admin_welcome_no_page.php:9
+msgid ""
+"You can create dedicated reservation page below, or you can skip this step "
+"and create page manually. When you create page manually, insert "
+"[redireservation] shortcode to the page."
+msgstr ""
+"Toliau galite sukurti specialų rezervavimo puslapį arba galite praleisti šį "
+"veiksmą ir sukurti puslapį rankiniu būdu. Kurdami puslapį rankiniu būdu, į "
+"puslapį įterpkite trumpąjį kodą [redireservation]."
+
+#: templates/admin_ajaxed.php:278
+msgid ""
+"You can specify the working time of restaurant by setting the opening time "
+"and closing time for each day of the week."
+msgstr ""
+"Galite nustatyti restorano darbo laiką, nustatydami kiekvienos savaitės "
+"dienos atidarymo ir uždarymo valandas."
+
+#: redi-restaurant-reservation.php:2093 redi-restaurant-reservation.php:2142
+msgid "You do not have permission to access this call."
+msgstr "Jūs neturite teisės prieiti prie šio skambučio."
+
+#: functions/notice.php:63
+#, php-format
+msgid ""
+"You have not made any changes to settings since you have installed the "
+"plugin. Finilize <b>ReDi Restaurant Reservation Plugin</b> setup now for "
+"seamless bookings. Visit the %s to finilize configuration and start impress "
+"your clients!"
+msgstr ""
+"Nesate atlikę jokių pakeitimų nuostatose nuo įskiepio įdiegimo. Galutinai "
+"sukonfigūruokite <b>ReDi restorano rezervacijos įskiepį</b>, kad "
+"rezervacijos būtų sklandžios. Apsilankykite svetainėje %s ir užbaikite "
+"konfigūraciją, kad nustebintumėte savo klientus!"
+
+#: templates/admin_welcome.php:2
+msgid "You plugin is active. Your API Key is"
+msgstr "Jūsų įskiepis yra aktyvus. Jūsų API raktas yra"
+
+#: templates/admin_welcome.php:14
+msgid "Your API key is :"
+msgstr "Jūsų API raktas yra :"
+
+#: templates/frontend.php:464
+msgid ""
+"Your information has been saved successfully and you will be notified once "
+"there are available seats for requested date."
+msgstr ""
+"Jūsų informacija išsaugota sėkmingai ir esant galimybei, būsite informuoti "
+"apie atsilaisvinusias vietas pageidaujamai datai."
+
+#: templates/frontend.php:316
+msgid "Your reservation number for reference:"
+msgstr "Jūsų rezervacijos numeris:"
+
+#: templates/admin.php:151
+msgid "Your settings have been saved!"
+msgstr "Jūsų nustatymai išsaugoti sėkmingai!"
+
+#: templates/admin.php:402
+msgid "Сhildren selection"
+msgstr "Vaikų amžiaus nustatymas"
